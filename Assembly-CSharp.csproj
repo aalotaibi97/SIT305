@@ -52,10 +52,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameManager\Dialogue.cs" />
-     <Compile Include="Assets\Scripts\GameManager\FadeManagement.cs" />
      <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
-     <Compile Include="Assets\Scripts\GameManager\Scene1_Manager.cs" />
-     <Compile Include="Assets\Scripts\GameManager\Splash.cs" />
+     <Compile Include="Assets\Scripts\GameManager\Scene_Manager\Scene1_Manager.cs" />
+     <Compile Include="Assets\Scripts\GameManager\Scene_Manager\Scene2_1Manager.cs" />
+     <Compile Include="Assets\Scripts\GameManager\Scene_Manager\Scene2_Manager.cs" />
+     <Compile Include="Assets\Scripts\GameManager\Transition Effect\FadeManagement.cs" />
+     <Compile Include="Assets\Scripts\GameManager\Transition Effect\LerpFade.cs" />
+     <Compile Include="Assets\Scripts\GameManager\Transition Effect\Splash.cs" />
+     <Compile Include="Assets\Scripts\NPC\Interactable.cs" />
+     <Compile Include="Assets\Scripts\NPC\NPC.cs" />
      <Compile Include="Assets\Scripts\Scriptable\Actor.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -133,10 +138,10 @@
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.1-1.0.56-Editor">
- <HintPath>F:/secondev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Editor.dll</HintPath>
+ <HintPath>F:/firstdev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.1-1.0.56-Runtime">
- <HintPath>F:/secondev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Runtime.dll</HintPath>
+ <HintPath>F:/firstdev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
