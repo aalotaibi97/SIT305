@@ -26,6 +26,10 @@ public class Scene1_Manager : MonoBehaviour {
 	public TMPro.TextMeshProUGUI speaker;
 	public TMPro.TextMeshProUGUI diag;
 
+	public Sprite _copSpeechBubble;
+	public Sprite _detectiveSpeechBubble;
+	public Image _dialogueImage;
+
 	private string scene1Doalog_FileName = "scene_1.json";
 
 	public List<Actor> _actorList;
@@ -52,6 +56,7 @@ public class Scene1_Manager : MonoBehaviour {
 		yield return new WaitForSeconds (1.0f);
 		_cop.SetActive (true);																// Active the gameobject (COP : 2D Sprite)
 		yield return new WaitForSeconds (1.0f);
+		_dialogueImage.sprite = _copSpeechBubble;
 		dialoguePanel.SetActive (true);
 		Show_Dialogue (dialogueIndex);
 		continueBtn.SetActive (false);
@@ -59,6 +64,7 @@ public class Scene1_Manager : MonoBehaviour {
 		_detective.SetActive (true);														// Active the gameobject (DETECTIVE : 2D Sprite)
 		yield return new WaitForSeconds (1.0f);
 		Show_Dialogue (dialogueIndex);
+		_dialogueImage.sprite = _detectiveSpeechBubble;
 		yield return new WaitForSeconds (1.0f);
 		continueBtn.SetActive (true);
 	}
@@ -81,7 +87,12 @@ public class Scene1_Manager : MonoBehaviour {
 	// SHowing progressively speech in the lower panel
 	private void Show_Dialogue(int index)
 	{
-		if (dialogueIndex < loadedData._dialogList.Count) {
+		if (dialogueIndex < loadedData._dialogList.Count) 
+		{
+			if (loadedData._dialogList [index].speaker == "Roger:")
+				_dialogueImage.sprite = _copSpeechBubble;
+			if (loadedData._dialogList [index].speaker == "Dan:")
+				_dialogueImage.sprite = _detectiveSpeechBubble;
 			speaker.text = loadedData._dialogList [index].speaker;
 			diag.text = loadedData._dialogList [index].dialogue;
 
@@ -98,5 +109,7 @@ public class Scene1_Manager : MonoBehaviour {
 	{
 		SceneManager.LoadScene ("scene_2");			//Load the new scene later
 	}
+
+
 
 }
