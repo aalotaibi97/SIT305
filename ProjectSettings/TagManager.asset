@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Interactable
   - InfoCollider
+  - Fire
+  - NPC
   layers:
   - Default
   - TransparentFX
