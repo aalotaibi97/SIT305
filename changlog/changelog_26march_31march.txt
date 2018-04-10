@@ -1,0 +1,33 @@
+commit 6f45a5497b830f119945aa464f411146f9472ce8
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Fri Mar 30 15:17:29 2018 +0530
+
+    Home Scene Steup
+    Effect transition
+    Dialogue speech between Cop and Detective
+
+commit 186713ec42cac4f5fd54526370b150561b0740fe
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Fri Mar 30 15:10:33 2018 +0530
+
+    updates
+
+commit 344da7622aed5d11bc49fc804bb6f547444f819a
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri Mar 30 11:51:40 2018 +0530
+
+    Project structure design and plan
+    game manager
+    creating splash scene
+
+commit 748428114e84e4cd503cdd7e84808ebe19b9e4eb
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri Mar 30 11:44:54 2018 +0530
+
+    first commit
+
+commit 61dd1a30b59b44fb8a593aaf55d96d6ae7acd160 (origin/stage, origin/aalotaibi97_first, origin/aalotaibi97_dev1, master, aalotaibi97_first)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri Mar 30 11:30:29 2018 +0530
+
+    first commit
