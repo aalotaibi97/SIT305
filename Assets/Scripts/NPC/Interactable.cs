@@ -14,18 +14,17 @@ using UnityEngine.AI;
 
 public class Interactable : MonoBehaviour {
 
-	public NavMeshAgent playerAgent;
-
-	// Player click to get interaction : player moves to interrrgate
-	public virtual void MoveToInteraction(NavMeshAgent playerAgent)
-	{
-		this.playerAgent = playerAgent;
-		playerAgent.destination = this.transform.position;
-	}
 
 	// When it triggers : player can start interrogation
 	public virtual void Interact()
 	{
 		Debug.Log ("Interacting with base class");
 	}
+
+	public virtual void DoAnimation()
+	{
+		Debug.Log ("Animation with base class");
+	}
+
+
 }
