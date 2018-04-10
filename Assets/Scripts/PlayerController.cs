@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
+using System.Collections;
 
-public class PlayerController : MonoBehaviour {
-
+public class PlayerController : MonoBehaviour 
+{
+	public CharacterController characterController;
     public Rigidbody Controller;
     public VirtualJoystick VirtualJoystick;
+	public GameObject BellCanvas;
 
     private Transform _camTransform;
 
@@ -37,7 +40,39 @@ public class PlayerController : MonoBehaviour {
         rotatedDir = new Vector3(rotatedDir.x, 0, rotatedDir.z);
         rotatedDir = rotatedDir.normalized * dir.magnitude;
 
-        Controller.AddForce(rotatedDir * MoveSpeed);
+		//Controller.GetComponent<Rigidbody>().MovePosition(rotatedDir * MoveSpeed);
+		characterController.Move (rotatedDir * MoveSpeed);
 	}
+
+	void OnTriggerEnter(Collider col)
+	{
+		if (col.transform.tag == "InfoCollider") {
+			//VirtualJoystick.gameObject.SetActive (false);
+			BellCanvas.SetActive (true);
+		}
+	}
+
+	void OnControllerColliderHit(ControllerColliderHit hit) 
+	{
+		if(hit.gameObject.tag == "NPC")
+			hit.gameObject.SendMessage ("PlayerInnterrogation", this.gameObject);
+	}
+
+
+
+	public void SetDeactiveAnimator()
+	{
+		StartCoroutine (deactivation ());
+	}
+
+
+	IEnumerator deactivation()
+	{
+		yield return new WaitForSeconds (2.1f);
+		VirtualJoystick.gameObject.SetActive (true);
+		GetComponentInParent<Animator> ().enabled = false;
+		_camTransform.GetComponent<CompleteProject.CameraFollow> ().enabled = true;
+	}
+
 
 }
