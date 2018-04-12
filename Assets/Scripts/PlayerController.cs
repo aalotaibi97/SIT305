@@ -11,18 +11,33 @@ public class PlayerController : MonoBehaviour
     private Transform _camTransform;
 
     public float MoveSpeed = 5.0f;
-    public float Drag = 0.5f;
+    public float drag = 0.5f;
     public float TerminalRotationSpeed = 25.0f;
 
+	public LayerMask Ground;
+	private bool _isGrounded = true;
+	private Transform _groundChecker;
+	public float GroundDistance = 0.2f;
+	private Vector3 _velocity;
+	public Vector3 Drag;
+	public float Gravity = -9.81f;
 
 	void Start () {
         Controller.maxAngularVelocity = TerminalRotationSpeed;
-        Controller.drag = Drag;
+        Controller.drag = drag;
 
         _camTransform = Camera.main.transform;
+
+		_groundChecker = transform.GetChild(0);
     }
 	
-	void Update () {
+	void Update () 
+	{
+		_isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
+		if (_isGrounded && _velocity.y < 0)
+			_velocity.y = 0f;
+
+
         Vector3 dir = Vector3.zero;
         dir.x = Input.GetAxis("Horizontal");
         dir.z = Input.GetAxis("Vertical");
@@ -42,6 +57,17 @@ public class PlayerController : MonoBehaviour
 
 		//Controller.GetComponent<Rigidbody>().MovePosition(rotatedDir * MoveSpeed);
 		characterController.Move (rotatedDir * MoveSpeed);
+
+		if (rotatedDir != Vector3.zero)
+			transform.forward = rotatedDir;
+
+		_velocity.y += Gravity * Time.deltaTime;
+
+		_velocity.x /= 1 + Drag.x * Time.deltaTime;
+		_velocity.y /= 1 + Drag.y * Time.deltaTime;
+		_velocity.z /= 1 + Drag.z * Time.deltaTime;
+
+		characterController.Move(_velocity * Time.deltaTime);
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -72,6 +98,7 @@ public class PlayerController : MonoBehaviour
 		VirtualJoystick.gameObject.SetActive (true);
 		GetComponentInParent<Animator> ().enabled = false;
 		_camTransform.GetComponent<CompleteProject.CameraFollow> ().enabled = true;
+
 	}
 
 
