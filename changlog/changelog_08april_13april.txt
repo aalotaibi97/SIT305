@@ -1,0 +1,35 @@
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Thu Apr 12 16:43:25 2018 +0530
+
+    Worked on Dialogue editor,
+    Creating and managing the dialogue conversation between NPC and Player
+    Json file will create for each conversation scene .
+
+    Modifying the Character control
+
+commit 0aff40c8741ced9ceff25a8f963bd8dcc0ae58b9
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Tue Apr 10 18:34:41 2018 +0530
+
+    library files updates
+
+commit 5686cbefb2bda777f47d703efd71bc7ea0973aa9 (origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Tue Apr 10 18:23:40 2018 +0530
+
+    add change log
+
+commit 6e81feef8fca1719e3336e9a61bab573e48ec474
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Tue Apr 10 17:51:43 2018 +0530
+
+    -Character Control Class
+    -Joystick control
+    -Interaction with door bell (As player in trigger area)
+    -Creating NPC Characters and collision base class with player
+
+commit da0308fbebffb423128c2b4c037bb13749093600
+Author: aalotaibi97 <30438919+aalotaibi97@users.noreply.github.com>
+Date:   Tue Apr 10 12:35:30 2018 +0530
+
+    Create LICENSE
