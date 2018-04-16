@@ -1,3 +1,26 @@
+
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon Apr 16 19:19:09 2018 +0530
+
+    Readme file update
+    - SID added
+    - JSON path defined
+
+commit b16d7c635170ca64865e2cee404ccfddf4ca999c
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon Apr 16 18:53:07 2018 +0530
+
+    Loading the JSON file from ...\Assets\Resources\GameJSONData folder as TextA                                                                                                                                                                                               sset
+    Read string from TextAsset and parse JSON
+    Creating List of dialogues
+
+commit 47ad3be25375bcfcf35b2c26827e25bf0689fef6 (origin/master)
+Author: HenryDeakin <henry.larkin@deakin.edu.au>
+Date:   Fri Apr 13 09:26:35 2018 +1000
+
+    Update README.md
+
+
 Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
 Date:   Thu Apr 12 16:43:25 2018 +0530
 
