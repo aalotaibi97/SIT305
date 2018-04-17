@@ -22,6 +22,10 @@ public class PlayerController : MonoBehaviour
 	public Vector3 Drag;
 	public float Gravity = -9.81f;
 
+	public Animator _animationModel;
+	public bool interacting;
+
+
 	void Start () {
         Controller.maxAngularVelocity = TerminalRotationSpeed;
         Controller.drag = drag;
@@ -68,6 +72,19 @@ public class PlayerController : MonoBehaviour
 		_velocity.z /= 1 + Drag.z * Time.deltaTime;
 
 		characterController.Move(_velocity * Time.deltaTime);
+
+		if (VirtualJoystick.InputVector != Vector3.zero) 
+		{
+			Debug.Log ("Moving");
+			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("walk"))
+				_animationModel.Play ("walk");
+		}
+		else
+		{
+			Debug.Log ("Not Moving");
+			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle"))
+				_animationModel.Play ("idle");
+		}
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -80,8 +97,15 @@ public class PlayerController : MonoBehaviour
 
 	void OnControllerColliderHit(ControllerColliderHit hit) 
 	{
-		if(hit.gameObject.tag == "NPC")
+		if (hit.gameObject.tag == "NPC" && !interacting) 
+		{
+			interacting = true;
 			hit.gameObject.SendMessage ("PlayerInnterrogation", this.gameObject);
+		}
+		else 
+		{
+			interacting = false;
+		}	
 	}
 
 

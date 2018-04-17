@@ -30,6 +30,10 @@ public class NPC : Interactable {
 	public void PlayerInnterrogation(GameObject g)
 	{
 		Debug.Log (g.name + " is interacting with " + this.gameObject.name);
+		iInteracted = true;
+
+		if (!g.GetComponent<PlayerController> ()._animationModel.GetCurrentAnimatorStateInfo (0).IsName ("talk_1") && iInteracted == true)
+			g.GetComponent<PlayerController> ()._animationModel.Play ("talk_1");
 	}
 
 	void Start()
