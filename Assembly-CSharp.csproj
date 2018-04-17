@@ -82,6 +82,7 @@
      <Compile Include="Assets\Scripts\NPC\NPC.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Scriptable\Actor.cs" />
+     <Compile Include="Assets\Scripts\Scriptable\Dialogue_storage.cs" />
      <Compile Include="Assets\Scripts\VirtualJoystick.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

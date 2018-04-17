@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Editor\DialogueEditor_Window.cs" />
      <Compile Include="Assets\RTS_Camera\Scripts\Editor\LayoutHelpers.cs" />
      <Compile Include="Assets\RTS_Camera\Scripts\Editor\RTS_CameraEditor.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
@@ -192,6 +193,8 @@
       <Project>{ACA28AB0-A21F-904B-D884-227F333F6A7B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{69FA4530-F131-F3D6-12C4-8359C2D3BF12}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.csproj">
+      <Project>{73B470E4-1927-1F3A-79A7-F96E61868027}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
       <Project>{0AAEBEAB-7C96-3A63-2D38-944B126CDC88}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>

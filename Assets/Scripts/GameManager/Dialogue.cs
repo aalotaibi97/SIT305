@@ -22,3 +22,17 @@ public class DialogueString
 	public string speaker;
 	public string dialogue;
 }
+
+[Serializable]
+public class Diag_Editor
+{
+	public int actorid=-1;
+	public string speaker;
+	public string dialogue;
+}
+
+public class Diag_Editor_JSON
+{
+	public int scene_id;
+	public List<Diag_Editor> _dialogList = new List<Diag_Editor>();
+}

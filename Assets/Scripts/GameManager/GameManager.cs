@@ -62,7 +62,8 @@ public class GameManager : MonoBehaviour {
 		string dataAsJson=null;
 
 		#if UNITY_EDITOR
-		filePath = Application.dataPath +"/"+jsonName;
+		filePath = "Assets/Resources/GameJSONData/"+jsonName;
+		//filePath = Application.dataPath +"/"+jsonName;
 		//path = "Assets/Resources/GameJSONData/"+jsonName+".json";
 		#endif
 		#if UNITY_STANDALONE
