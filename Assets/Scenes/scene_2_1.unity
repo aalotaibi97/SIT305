@@ -16133,6 +16133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iInteracted: 0
+  _myConversation: {fileID: 4900000, guid: e8a908ea6c3fb5b48983a77c34d2df12, type: 3}
 --- !u!1 &505570478
 GameObject:
   m_ObjectHideFlags: 0
@@ -16601,6 +16602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iInteracted: 0
+  _myConversation: {fileID: 4900000, guid: 2a2a738d6c038414dad9f50d99d0bd1d, type: 3}
 --- !u!1 &513780638
 GameObject:
   m_ObjectHideFlags: 0
@@ -41524,6 +41526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iInteracted: 0
+  _myConversation: {fileID: 4900000, guid: 7e9b2e705e7b37743b9f1baf906aa0df, type: 3}
 --- !u!1 &1216975532
 GameObject:
   m_ObjectHideFlags: 0
@@ -42310,6 +42313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iInteracted: 0
+  _myConversation: {fileID: 4900000, guid: 6119fe3f8ebaa3540b9de62743b407bd, type: 3}
 --- !u!1 &1242070945
 GameObject:
   m_ObjectHideFlags: 0
@@ -74580,6 +74584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iInteracted: 0
+  _myConversation: {fileID: 4900000, guid: 330a9680cec713b45b1e71030f43cfe2, type: 3}
 --- !u!1 &2114214829
 GameObject:
   m_ObjectHideFlags: 0

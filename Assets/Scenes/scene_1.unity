@@ -700,6 +700,7 @@ MonoBehaviour:
     actor_1: 
     actor_2: 
     _dialogList: []
+  _scene1Json: {fileID: 4900000, guid: 0fef112793100cc429e105af0c68b19b, type: 3}
 --- !u!1 &759179911
 GameObject:
   m_ObjectHideFlags: 0

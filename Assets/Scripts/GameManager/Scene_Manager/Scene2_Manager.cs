@@ -50,7 +50,6 @@ public class Scene2_Manager : MonoBehaviour {
 		float increment = 0.02f/4.0f; //The amount of change to apply.
 		while(progress < 1)
 		{
-			Debug.Log ("............................."+progress);
 			Vector3 sc = Vector3.Lerp(start,end, progress);
 			progress += increment;
 			_houseBG.transform.localScale = new Vector3 (sc.x, sc.y, sc.z);
