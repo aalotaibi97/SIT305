@@ -37,6 +37,8 @@ public class Scene1_Manager : MonoBehaviour {
 
 	public Dialogue loadedData;
 
+	public TextAsset _scene1Json;
+
 	void Awake()
 	{
 		_instance = this;
@@ -78,7 +80,11 @@ public class Scene1_Manager : MonoBehaviour {
 
 	private void LoadGameData()
 	{
-		string jsonData = GameManager._instance.LoadJSONInfo (scene1Doalog_FileName);
+		//string jsonData = GameManager._instance.LoadJSONInfo (scene1Doalog_FileName);
+
+		string jsonData = _scene1Json.text;
+
+		Debug.Log ("JSON DATA : " + jsonData);
 		loadedData = JsonUtility.FromJson<Dialogue> (jsonData);
 		continueBtn.GetComponent<Button>().onClick.AddListener(()=> Show_Dialogue(dialogueIndex));
 		Debug.Log ("LOADED JSON : " + loadedData);
