@@ -53,10 +53,6 @@
   <ItemGroup>
      <Compile Include="Assets\CameraSetting\CameraFollow.cs" />
      <Compile Include="Assets\CameraSetting\Wiggle.cs" />
-     <Compile Include="Assets\InfoValue.cs" />
-     <Compile Include="Assets\Panel_key_Info.cs" />
-     <Compile Include="Assets\Player.cs" />
-     <Compile Include="Assets\Player_Collider.cs" />
      <Compile Include="Assets\RTS_Camera\Demo\DemoScene.cs" />
      <Compile Include="Assets\RTS_Camera\Demo\TargetSelector.cs" />
      <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
@@ -77,9 +73,14 @@
      <Compile Include="Assets\Scripts\GameManager\Transition Effect\FadeManagement.cs" />
      <Compile Include="Assets\Scripts\GameManager\Transition Effect\LerpFade.cs" />
      <Compile Include="Assets\Scripts\GameManager\Transition Effect\Splash.cs" />
+     <Compile Include="Assets\Scripts\InfoValue.cs" />
      <Compile Include="Assets\Scripts\Interaction.cs" />
      <Compile Include="Assets\Scripts\NPC\Interactable.cs" />
      <Compile Include="Assets\Scripts\NPC\NPC.cs" />
+     <Compile Include="Assets\Scripts\NPC\NPC_DialoguePanel.cs" />
+     <Compile Include="Assets\Scripts\Panel_key_Info.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Player_Collider.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Scriptable\Actor.cs" />
      <Compile Include="Assets\Scripts\Scriptable\Dialogue_storage.cs" />

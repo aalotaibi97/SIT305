@@ -97,15 +97,10 @@ public class PlayerController : MonoBehaviour
 
 	void OnControllerColliderHit(ControllerColliderHit hit) 
 	{
-		if (hit.gameObject.tag == "NPC" && !interacting) 
+		if (hit.gameObject.tag == "NPC" && !hit.gameObject.GetComponent<NPC>().iInteracted) 
 		{
-			interacting = true;
 			hit.gameObject.SendMessage ("PlayerInnterrogation", this.gameObject);
 		}
-		else 
-		{
-			interacting = false;
-		}	
 	}
 
 

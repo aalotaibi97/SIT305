@@ -10,7 +10,7 @@ using UnityEngine;
 public class NPC : Interactable {
 
 	[SerializeField]
-	private bool iInteracted;
+	public  bool iInteracted;
 
 	public TextAsset _myConversation;
 	private string jsonData;
@@ -32,8 +32,13 @@ public class NPC : Interactable {
 		Debug.Log (g.name + " is interacting with " + this.gameObject.name);
 		iInteracted = true;
 
-		if (!g.GetComponent<PlayerController> ()._animationModel.GetCurrentAnimatorStateInfo (0).IsName ("talk_1") && iInteracted == true)
-			g.GetComponent<PlayerController> ()._animationModel.Play ("talk_1");
+//		if (!g.GetComponent<PlayerController> ()._animationModel.GetCurrentAnimatorStateInfo (0).IsName ("talk_1") && iInteracted == true)
+//			g.GetComponent<PlayerController> ()._animationModel.Play ("talk_1");
+
+
+		// ShowCAnVAS OF SPPECH
+		Scene2_1Manager.instance._panel_Chat.SetActive(true);
+		Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel> ()._diagList = this._diagList;
 	}
 
 	void Start()
