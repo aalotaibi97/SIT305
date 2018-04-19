@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class Scene2_1Manager : MonoBehaviour {
 
+	public static Scene2_1Manager instance;
+
 	public LerpFade _lerpFade;
+
+	public GameObject _panel_Chat;
+
+
 
 	void OnEnable()
 	{
@@ -14,6 +20,7 @@ public class Scene2_1Manager : MonoBehaviour {
 	void Awake()
 	{
 		//_lerpFade.White (0.01f);
+		instance = this;
 	}
 
 	// Use this for initialization
