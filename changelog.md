@@ -1,3 +1,25 @@
+commit de395490436ecdd15f638c3024b59f8dc44c47ee (HEAD -> ksa_1409_8dev2, origin/ksa_1409_8dev2)
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed Apr 18 16:05:46 2018 +0530
+
+    -Event get for interacting with NPC : Ronald
+    -Create dialogue sppech panel to show conversation between them
+    -Parsed JSON string to Dialogue class, to show dialogues on continued button.
+
+commit 275e12efb0793ee69f92303882e9787907877130
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Tue Apr 17 18:36:03 2018 +0530
+
+    Detective character movement animation : idle and walk
+
+commit 4b0561db2a5b707be87cee5e557bd3fa60470d86 (origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon Apr 16 19:21:51 2018 +0530
+
+    change log updated
+
+
+
 
 Author: aalotaibi97 <aalotaibi97@gmail.com>
 Date:   Mon Apr 16 19:19:09 2018 +0530
