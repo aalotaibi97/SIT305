@@ -5178,8 +5178,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.78069323, y: 1, z: 0.6351846}
+  m_Center: {x: 0.008435344, y: 0, z: -0.1824077}
 --- !u!33 &167236515
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16691,7 +16691,7 @@ GameObject:
   - component: {fileID: 513044188}
   m_Layer: 0
   m_Name: NPC_Butler
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16738,8 +16738,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.5, y: 1.7461436, z: 1.5}
+  m_Center: {x: 0, y: 0.37307152, z: 0}
 --- !u!33 &513044186
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16756,7 +16756,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.229, y: 0.456, z: -0.373}
   m_LocalScale: {x: 0.16760015, y: 0.8983548, z: 0.19272321}
-  m_Children: []
+  m_Children:
+  - {fileID: 581929606}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18783,6 +18784,68 @@ Transform:
   m_Father: {fileID: 1622563016}
   m_RootOrder: 1092
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &581929605
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 513044187}
+    m_Modifications:
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5075945
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.67758805
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7354417
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 47.99321
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 257.02463
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 223.93849
+      objectReference: {fileID: 0}
+    - target: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -85.311005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+  m_IsPrefabParent: 0
+--- !u!4 &581929606 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400132, guid: 09cf04bd5d5ef47439f8fd1771f8b536, type: 3}
+  m_PrefabInternal: {fileID: 581929605}
 --- !u!1 &586773682
 GameObject:
   m_ObjectHideFlags: 0
@@ -45449,11 +45512,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lerpFade: {fileID: 1376886463}
-  _julie: {fileID: 0}
-  _gardener: {fileID: 0}
-  _cook: {fileID: 0}
-  _butler: {fileID: 0}
-  _husband: {fileID: 0}
   _panel_Chat: {fileID: 1140849346}
 --- !u!4 &1306980803
 Transform:
