@@ -82,7 +82,7 @@ public class PlayerController : MonoBehaviour
 		else
 		{
 			Debug.Log ("Not Moving");
-			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle"))
+			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle") && (!GetComponentInParent<Animator> ().isActiveAndEnabled))
 				_animationModel.Play ("idle");
 		}
 	}
@@ -97,7 +97,7 @@ public class PlayerController : MonoBehaviour
 
 	void OnControllerColliderHit(ControllerColliderHit hit) 
 	{
-		if (hit.gameObject.tag == "NPC" && !hit.gameObject.GetComponent<NPC>().iInteracted) 
+		if (hit.gameObject.tag == "NPC" && !hit.gameObject.GetComponent<NPC> ().iInteracted && hit.gameObject.name == "Butler") 
 		{
 			hit.gameObject.SendMessage ("PlayerInnterrogation", this.gameObject);
 		}
@@ -107,6 +107,7 @@ public class PlayerController : MonoBehaviour
 
 	public void SetDeactiveAnimator()
 	{
+		_animationModel.Play ("walk");
 		StartCoroutine (deactivation ());
 	}
 
@@ -114,6 +115,8 @@ public class PlayerController : MonoBehaviour
 	IEnumerator deactivation()
 	{
 		yield return new WaitForSeconds (2.1f);
+		if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle"))
+			_animationModel.Play ("idle");
 		VirtualJoystick.gameObject.SetActive (true);
 		GetComponentInParent<Animator> ().enabled = false;
 		_camTransform.GetComponent<CompleteProject.CameraFollow> ().enabled = true;
