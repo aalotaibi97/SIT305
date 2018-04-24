@@ -16,6 +16,8 @@ public class NPC : Interactable {
 	private string jsonData;
 	public List<Diag_Editor> _diagList = new List<Diag_Editor>();
 
+	public Sprite _my2DSprite;
+
 	// Interaction for dialogue
 	public override void Interact ()
 	{
@@ -37,8 +39,15 @@ public class NPC : Interactable {
 
 
 		// ShowCAnVAS OF SPPECH
+		Invoke("Investigating",2.0f);
+	
+	}
+
+	void Investigating()
+	{
 		Scene2_1Manager.instance._panel_Chat.SetActive(true);
 		Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel> ()._diagList = this._diagList;
+		Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel> ().speaker_2.sprite = _my2DSprite;
 	}
 
 	void Start()

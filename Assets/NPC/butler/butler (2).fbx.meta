@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 09cf04bd5d5ef47439f8fd1771f8b536
+timeCreated: 1524491396
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Alfred_Pennyworth:Head
+    100002: Alfred_Pennyworth:HeadTop_End
+    100004: Alfred_Pennyworth:Hips
+    100006: Alfred_Pennyworth:LeftArm
+    100008: Alfred_Pennyworth:LeftFoot
+    100010: Alfred_Pennyworth:LeftForeArm
+    100012: Alfred_Pennyworth:LeftHand
+    100014: Alfred_Pennyworth:LeftHandIndex1
+    100016: Alfred_Pennyworth:LeftHandIndex2
+    100018: Alfred_Pennyworth:LeftHandIndex3
+    100020: Alfred_Pennyworth:LeftHandIndex4
+    100022: Alfred_Pennyworth:LeftHandMiddle1
+    100024: Alfred_Pennyworth:LeftHandMiddle2
+    100026: Alfred_Pennyworth:LeftHandMiddle3
+    100028: Alfred_Pennyworth:LeftHandMiddle4
+    100030: Alfred_Pennyworth:LeftHandPinky1
+    100032: Alfred_Pennyworth:LeftHandPinky2
+    100034: Alfred_Pennyworth:LeftHandPinky3
+    100036: Alfred_Pennyworth:LeftHandPinky4
+    100038: Alfred_Pennyworth:LeftHandRing1
+    100040: Alfred_Pennyworth:LeftHandRing2
+    100042: Alfred_Pennyworth:LeftHandRing3
+    100044: Alfred_Pennyworth:LeftHandRing4
+    100046: Alfred_Pennyworth:LeftHandThumb1
+    100048: Alfred_Pennyworth:LeftHandThumb2
+    100050: Alfred_Pennyworth:LeftHandThumb3
+    100052: Alfred_Pennyworth:LeftHandThumb4
+    100054: Alfred_Pennyworth:LeftLeg
+    100056: Alfred_Pennyworth:LeftShoulder
+    100058: Alfred_Pennyworth:LeftToe_End
+    100060: Alfred_Pennyworth:LeftToeBase
+    100062: Alfred_Pennyworth:LeftUpLeg
+    100064: Alfred_Pennyworth:Mesh
+    100066: Alfred_Pennyworth:Neck
+    100068: Alfred_Pennyworth:RightArm
+    100070: Alfred_Pennyworth:RightFoot
+    100072: Alfred_Pennyworth:RightForeArm
+    100074: Alfred_Pennyworth:RightHand
+    100076: Alfred_Pennyworth:RightHandIndex1
+    100078: Alfred_Pennyworth:RightHandIndex2
+    100080: Alfred_Pennyworth:RightHandIndex3
+    100082: Alfred_Pennyworth:RightHandIndex4
+    100084: Alfred_Pennyworth:RightHandMiddle1
+    100086: Alfred_Pennyworth:RightHandMiddle2
+    100088: Alfred_Pennyworth:RightHandMiddle3
+    100090: Alfred_Pennyworth:RightHandMiddle4
+    100092: Alfred_Pennyworth:RightHandPinky1
+    100094: Alfred_Pennyworth:RightHandPinky2
+    100096: Alfred_Pennyworth:RightHandPinky3
+    100098: Alfred_Pennyworth:RightHandPinky4
+    100100: Alfred_Pennyworth:RightHandRing1
+    100102: Alfred_Pennyworth:RightHandRing2
+    100104: Alfred_Pennyworth:RightHandRing3
+    100106: Alfred_Pennyworth:RightHandRing4
+    100108: Alfred_Pennyworth:RightHandThumb1
+    100110: Alfred_Pennyworth:RightHandThumb2
+    100112: Alfred_Pennyworth:RightHandThumb3
+    100114: Alfred_Pennyworth:RightHandThumb4
+    100116: Alfred_Pennyworth:RightLeg
+    100118: Alfred_Pennyworth:RightShoulder
+    100120: Alfred_Pennyworth:RightToe_End
+    100122: Alfred_Pennyworth:RightToeBase
+    100124: Alfred_Pennyworth:RightUpLeg
+    100126: Alfred_Pennyworth:Spine
+    100128: Alfred_Pennyworth:Spine1
+    100130: Alfred_Pennyworth:Spine2
+    100132: //RootNode
+    400000: Alfred_Pennyworth:Head
+    400002: Alfred_Pennyworth:HeadTop_End
+    400004: Alfred_Pennyworth:Hips
+    400006: Alfred_Pennyworth:LeftArm
+    400008: Alfred_Pennyworth:LeftFoot
+    400010: Alfred_Pennyworth:LeftForeArm
+    400012: Alfred_Pennyworth:LeftHand
+    400014: Alfred_Pennyworth:LeftHandIndex1
+    400016: Alfred_Pennyworth:LeftHandIndex2
+    400018: Alfred_Pennyworth:LeftHandIndex3
+    400020: Alfred_Pennyworth:LeftHandIndex4
+    400022: Alfred_Pennyworth:LeftHandMiddle1
+    400024: Alfred_Pennyworth:LeftHandMiddle2
+    400026: Alfred_Pennyworth:LeftHandMiddle3
+    400028: Alfred_Pennyworth:LeftHandMiddle4
+    400030: Alfred_Pennyworth:LeftHandPinky1
+    400032: Alfred_Pennyworth:LeftHandPinky2
+    400034: Alfred_Pennyworth:LeftHandPinky3
+    400036: Alfred_Pennyworth:LeftHandPinky4
+    400038: Alfred_Pennyworth:LeftHandRing1
+    400040: Alfred_Pennyworth:LeftHandRing2
+    400042: Alfred_Pennyworth:LeftHandRing3
+    400044: Alfred_Pennyworth:LeftHandRing4
+    400046: Alfred_Pennyworth:LeftHandThumb1
+    400048: Alfred_Pennyworth:LeftHandThumb2
+    400050: Alfred_Pennyworth:LeftHandThumb3
+    400052: Alfred_Pennyworth:LeftHandThumb4
+    400054: Alfred_Pennyworth:LeftLeg
+    400056: Alfred_Pennyworth:LeftShoulder
+    400058: Alfred_Pennyworth:LeftToe_End
+    400060: Alfred_Pennyworth:LeftToeBase
+    400062: Alfred_Pennyworth:LeftUpLeg
+    400064: Alfred_Pennyworth:Mesh
+    400066: Alfred_Pennyworth:Neck
+    400068: Alfred_Pennyworth:RightArm
+    400070: Alfred_Pennyworth:RightFoot
+    400072: Alfred_Pennyworth:RightForeArm
+    400074: Alfred_Pennyworth:RightHand
+    400076: Alfred_Pennyworth:RightHandIndex1
+    400078: Alfred_Pennyworth:RightHandIndex2
+    400080: Alfred_Pennyworth:RightHandIndex3
+    400082: Alfred_Pennyworth:RightHandIndex4
+    400084: Alfred_Pennyworth:RightHandMiddle1
+    400086: Alfred_Pennyworth:RightHandMiddle2
+    400088: Alfred_Pennyworth:RightHandMiddle3
+    400090: Alfred_Pennyworth:RightHandMiddle4
+    400092: Alfred_Pennyworth:RightHandPinky1
+    400094: Alfred_Pennyworth:RightHandPinky2
+    400096: Alfred_Pennyworth:RightHandPinky3
+    400098: Alfred_Pennyworth:RightHandPinky4
+    400100: Alfred_Pennyworth:RightHandRing1
+    400102: Alfred_Pennyworth:RightHandRing2
+    400104: Alfred_Pennyworth:RightHandRing3
+    400106: Alfred_Pennyworth:RightHandRing4
+    400108: Alfred_Pennyworth:RightHandThumb1
+    400110: Alfred_Pennyworth:RightHandThumb2
+    400112: Alfred_Pennyworth:RightHandThumb3
+    400114: Alfred_Pennyworth:RightHandThumb4
+    400116: Alfred_Pennyworth:RightLeg
+    400118: Alfred_Pennyworth:RightShoulder
+    400120: Alfred_Pennyworth:RightToe_End
+    400122: Alfred_Pennyworth:RightToeBase
+    400124: Alfred_Pennyworth:RightUpLeg
+    400126: Alfred_Pennyworth:Spine
+    400128: Alfred_Pennyworth:Spine1
+    400130: Alfred_Pennyworth:Spine2
+    400132: //RootNode
+    4300000: Alfred_Pennyworth:Mesh
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: Alfred_Pennyworth:Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

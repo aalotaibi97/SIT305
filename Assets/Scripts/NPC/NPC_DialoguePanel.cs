@@ -18,12 +18,26 @@ public class NPC_DialoguePanel : MonoBehaviour {
 
 	void OnEnable()
 	{
-		StartCoroutine ("StartSpeech");
-
+		_diag_1.text = "";
+		_diag_2.text = "";	
+		indexID = 0;
 		_continue.onClick.AddListener (Continue);
+		StartCoroutine ("StartSpeech");
 	}
 
-	int indexID=0;
+	void OnDisable()
+	{
+		_continue.onClick.RemoveAllListeners ();
+	}
+
+
+//	public void Show(List<Diag_Editor> _d,Sprite s)
+//	{
+//		_diagList = _d;
+//		speaker_2.sprite = s;
+//	}
+
+	public int indexID=0;
 	IEnumerator StartSpeech()
 	{
 		_continue.interactable = false;
@@ -31,22 +45,29 @@ public class NPC_DialoguePanel : MonoBehaviour {
 		yield return new WaitForSeconds (1.0f);
 
 		if (indexID < _diagList.Count) 
+		{
 			_diag_1.text = _diagList [indexID].dialogue;
+			indexID++;
+		}
 		else
 			_continue.interactable = true;
 
-		indexID++;
+
 
 		yield return new WaitForSeconds (2.0f);
 
 		if (indexID < _diagList.Count) 
+		{
 			_diag_2.text = _diagList [indexID].dialogue;
+			indexID++;
+		}
 		else
 			_continue.interactable = true;
+		
 
 		yield return new WaitForSeconds (2.0f);
 
-		indexID++;
+
 
 		_continue.interactable = true;
 
@@ -62,8 +83,8 @@ public class NPC_DialoguePanel : MonoBehaviour {
 			StartCoroutine ("StartSpeech");
 		}
 		else 
-				
 		{
+			StopCoroutine ("StartSpeech");
 			indexID = 0;
 			this.gameObject.SetActive (false);
 		}

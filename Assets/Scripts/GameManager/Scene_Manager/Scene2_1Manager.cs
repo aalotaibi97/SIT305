@@ -8,14 +8,9 @@ public class Scene2_1Manager : MonoBehaviour {
 
 	public LerpFade _lerpFade;
 
+
+
 	public GameObject _panel_Chat;
-
-
-
-	void OnEnable()
-	{
-		
-	}
 
 	void Awake()
 	{
