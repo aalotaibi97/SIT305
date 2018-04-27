@@ -15,6 +15,6 @@ Student ID: 212084899
 - I couldn't find your text-based data. Create a root folder "data/" and put all your JSON files in there.
 
 
-- Reply 
+# Developer Reply 
 JSON files are in this root directory "\Assets\Resources\GameJSONData" as per Unity Project structure
 

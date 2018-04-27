@@ -1,3 +1,16 @@
+commit 746677a69d9ae5863bcf249949836ac7bde796c0 (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri Apr 27 19:07:52 2018 +0530
+
+    Implemented the dialogue chat panel between
+    - Detective and Gardener
+    - Detective and Cook
+
+    Showing suspect panel to confirm. Is he commited crime.
+    Working on interaction with knife when player reaches nearby to it.
+    Continued working on Light system of game scene for optimize.
+
+
 commit 192049650be55d93d06ad55b839f2e47007ec1b3 (origin/ksa_1409_8dev2)
 Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
 Date:   Fri Apr 27 16:06:49 2018 +0530
