@@ -91,7 +91,7 @@ Accomplished Tasks :
 
 	Gamemanger.cs & Scene2_1Manager.cs : to load and manage scenes and dialogues between Player and NPC(Ronald, Butler, Gardener , Cook)
 
-Tasks still to do: 
+Tasks still to do :-
 	List of suspected persons (NPC)	
 	Conversation between Detective and Maid , Julie
 	Interaction with Knife and mail letters as an evidence interactiable item
