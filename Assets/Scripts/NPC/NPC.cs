@@ -10,11 +10,14 @@ using UnityEngine;
 public class NPC : Interactable {
 
 	[SerializeField]
-	private bool iInteracted;
+	public  bool iInteracted;
 
 	public TextAsset _myConversation;
 	private string jsonData;
 	public List<Diag_Editor> _diagList = new List<Diag_Editor>();
+
+	public Sprite _my2DSprite;
+	public string myName;
 
 	// Interaction for dialogue
 	public override void Interact ()
@@ -30,6 +33,23 @@ public class NPC : Interactable {
 	public void PlayerInnterrogation(GameObject g)
 	{
 		Debug.Log (g.name + " is interacting with " + this.gameObject.name);
+		iInteracted = true;
+
+//		if (!g.GetComponent<PlayerController> ()._animationModel.GetCurrentAnimatorStateInfo (0).IsName ("talk_1") && iInteracted == true)
+//			g.GetComponent<PlayerController> ()._animationModel.Play ("talk_1");
+
+
+		// ShowCAnVAS OF SPPECH
+		Invoke("Investigating",2.0f);
+	
+	}
+
+	void Investigating()
+	{
+		Scene2_1Manager.instance._panel_Chat.SetActive(true);
+		Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel> ()._diagList = this._diagList;
+		Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel> ().speaker_2.sprite = _my2DSprite;
+		Scene2_1Manager.instance.suspectedPerson = myName;
 	}
 
 	void Start()
@@ -55,5 +75,7 @@ public class NPC : Interactable {
 //		{
 //			Debug.Log (d.speaker + "\t" + d.dialogue);
 //		}
+
+		myName = _diagList [1].speaker;
 	}
 }

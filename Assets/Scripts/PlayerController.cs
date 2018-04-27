@@ -22,6 +22,10 @@ public class PlayerController : MonoBehaviour
 	public Vector3 Drag;
 	public float Gravity = -9.81f;
 
+	public Animator _animationModel;
+	public bool interacting;
+
+
 	void Start () {
         Controller.maxAngularVelocity = TerminalRotationSpeed;
         Controller.drag = drag;
@@ -30,9 +34,23 @@ public class PlayerController : MonoBehaviour
 
 		_groundChecker = transform.GetChild(0);
     }
-	
+
+	void WallDetect_Trans()
+	{
+		RaycastHit hit;
+		Ray ray = Camera.main.ScreenPointToRay(this.gameObject.transform.position);
+
+		if (Physics.Raycast(ray, out hit)) {
+			Transform objectHit = hit.transform;
+			Debug.Log (objectHit.tag);
+			// Do something with the object that was hit by the raycast.
+		}
+	}
+
 	void Update () 
 	{
+		WallDetect_Trans ();
+
 		_isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
 		if (_isGrounded && _velocity.y < 0)
 			_velocity.y = 0f;
@@ -68,6 +86,19 @@ public class PlayerController : MonoBehaviour
 		_velocity.z /= 1 + Drag.z * Time.deltaTime;
 
 		characterController.Move(_velocity * Time.deltaTime);
+
+		if (VirtualJoystick.InputVector != Vector3.zero) 
+		{
+			Debug.Log ("Moving");
+			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("walk"))
+				_animationModel.Play ("walk");
+		}
+		else
+		{
+			Debug.Log ("Not Moving");
+			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle") && (!GetComponentInParent<Animator> ().isActiveAndEnabled))
+				_animationModel.Play ("idle");
+		}
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -80,14 +111,17 @@ public class PlayerController : MonoBehaviour
 
 	void OnControllerColliderHit(ControllerColliderHit hit) 
 	{
-		if(hit.gameObject.tag == "NPC")
+		if (hit.gameObject.tag == "NPC" && !hit.gameObject.GetComponent<NPC> ().iInteracted) 
+		{
 			hit.gameObject.SendMessage ("PlayerInnterrogation", this.gameObject);
+		}
 	}
 
 
 
 	public void SetDeactiveAnimator()
 	{
+		_animationModel.Play ("walk");
 		StartCoroutine (deactivation ());
 	}
 
@@ -95,6 +129,8 @@ public class PlayerController : MonoBehaviour
 	IEnumerator deactivation()
 	{
 		yield return new WaitForSeconds (2.1f);
+		if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle"))
+			_animationModel.Play ("idle");
 		VirtualJoystick.gameObject.SetActive (true);
 		GetComponentInParent<Animator> ().enabled = false;
 		_camTransform.GetComponent<CompleteProject.CameraFollow> ().enabled = true;
