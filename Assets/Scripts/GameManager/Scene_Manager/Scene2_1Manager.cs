@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Scene2_1Manager : MonoBehaviour {
 
 	public static Scene2_1Manager instance;
 
 	public LerpFade _lerpFade;
-
-
-
 	public GameObject _panel_Chat;
+
+	public GameObject _suspectPanel;
+	public string suspectedPerson;
+	public Text _suspectedText;
+
+	public List<string> _ListSuspected = new List<string> ();
+	public List<string> _ListPersons = new List<string> ();
 
 	void Awake()
 	{
@@ -22,13 +27,22 @@ public class Scene2_1Manager : MonoBehaviour {
 	IEnumerator  Start () {
 
 		yield return new WaitForSeconds (1.0f);
-
 		_lerpFade.Light_white (2.0f);
-
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	public void OpenSuspectPanel()
+	{
+		_suspectedText.text = "Is " + suspectedPerson + " suspected to murderer.";
+		_suspectPanel.SetActive (true);
+	}
+
+	public void ToSuspect(bool yes)
+	{
+		if (yes)
+			_ListSuspected.Add (suspectedPerson);
+		else
+			_ListPersons.Add (suspectedPerson);
+
+		_suspectPanel.SetActive (false);
 	}
 }
