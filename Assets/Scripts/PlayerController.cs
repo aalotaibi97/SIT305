@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
 	public Animator _animationModel;
 	public bool interacting;
 
+	public Transform hitPint;
+
 
 	void Start () {
         Controller.maxAngularVelocity = TerminalRotationSpeed;
@@ -38,12 +40,13 @@ public class PlayerController : MonoBehaviour
 	void WallDetect_Trans()
 	{
 		RaycastHit hit;
-		Ray ray = Camera.main.ScreenPointToRay(this.gameObject.transform.position);
-
-		if (Physics.Raycast(ray, out hit)) {
+		Ray ray = Camera.main.ScreenPointToRay(hitPint.position);
+		if (Physics.Raycast(ray, out hit)) 
+		{
 			Transform objectHit = hit.transform;
 			Debug.Log (objectHit.tag);
 			// Do something with the object that was hit by the raycast.
+			Debug.DrawRay(ray.origin,hit.point,Color.blue);
 		}
 	}
 
@@ -109,6 +112,7 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+	// GETTING INTERACTION BETWEEN PLAYER AND NPC : BY GETTING HE TAG OF HITTING OBJECT
 	void OnControllerColliderHit(ControllerColliderHit hit) 
 	{
 		if (hit.gameObject.tag == "NPC" && !hit.gameObject.GetComponent<NPC> ().iInteracted) 
@@ -126,6 +130,7 @@ public class PlayerController : MonoBehaviour
 	}
 
 
+	// De-activating the VIRTUAL JOYSTICK
 	IEnumerator deactivation()
 	{
 		yield return new WaitForSeconds (2.1f);
