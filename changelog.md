@@ -1,3 +1,38 @@
+commit 1fc7d63303d0dc01c2a14306a194da299880eaff (HEAD -> ksa_1409_8dev2, origin/ksa_1409_8dev2)
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed Apr 25 14:21:28 2018 +0530
+
+    -Add interactable item - Knife and mail letters
+    -After dialogue conversation showing the panel to Detective
+    -Is interrogated person to kept in suspect or not.
+
+commit 3c5826fb5b29980a611692b58521a65dee547bcf (origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon Apr 23 19:26:50 2018 +0530
+
+    Add 3d model of Butler NPC
+    Implemented code for Butler Speech text
+    Modify the character(RPG) animation while interatig with Bell.
+
+commit 1f89849ba9f59f39546b82904b8120796df19c18
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri Apr 20 14:15:10 2018 +0530
+
+    Added sprite to each NPC
+    Showing sprite to dialogue panel.
+
+commit be40b03863face9eede9d24476c648bbe1b56915
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Thu Apr 19 11:03:57 2018 +0530
+
+    updates
+
+commit 528889bb04372062512aff356441bf97a1351632
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed Apr 18 19:00:34 2018 +0530
+
+    change log updation
+
 commit de395490436ecdd15f638c3024b59f8dc44c47ee (HEAD -> ksa_1409_8dev2, origin/ksa_1409_8dev2)
 Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
 Date:   Wed Apr 18 16:05:46 2018 +0530

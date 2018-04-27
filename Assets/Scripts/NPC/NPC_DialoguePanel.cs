@@ -23,6 +23,8 @@ public class NPC_DialoguePanel : MonoBehaviour {
 		indexID = 0;
 		_continue.onClick.AddListener (Continue);
 		StartCoroutine ("StartSpeech");
+
+
 	}
 
 	void OnDisable()
@@ -86,7 +88,13 @@ public class NPC_DialoguePanel : MonoBehaviour {
 		{
 			StopCoroutine ("StartSpeech");
 			indexID = 0;
+
+			Scene2_1Manager.instance.OpenSuspectPanel ();
+
 			this.gameObject.SetActive (false);
+
+
 		}
+			
 	}
 }

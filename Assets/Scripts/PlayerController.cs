@@ -34,9 +34,23 @@ public class PlayerController : MonoBehaviour
 
 		_groundChecker = transform.GetChild(0);
     }
-	
+
+	void WallDetect_Trans()
+	{
+		RaycastHit hit;
+		Ray ray = Camera.main.ScreenPointToRay(this.gameObject.transform.position);
+
+		if (Physics.Raycast(ray, out hit)) {
+			Transform objectHit = hit.transform;
+			Debug.Log (objectHit.tag);
+			// Do something with the object that was hit by the raycast.
+		}
+	}
+
 	void Update () 
 	{
+		WallDetect_Trans ();
+
 		_isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
 		if (_isGrounded && _velocity.y < 0)
 			_velocity.y = 0f;
@@ -97,7 +111,7 @@ public class PlayerController : MonoBehaviour
 
 	void OnControllerColliderHit(ControllerColliderHit hit) 
 	{
-		if (hit.gameObject.tag == "NPC" && !hit.gameObject.GetComponent<NPC> ().iInteracted && hit.gameObject.name == "Butler") 
+		if (hit.gameObject.tag == "NPC" && !hit.gameObject.GetComponent<NPC> ().iInteracted) 
 		{
 			hit.gameObject.SendMessage ("PlayerInnterrogation", this.gameObject);
 		}

@@ -17,6 +17,7 @@ public class NPC : Interactable {
 	public List<Diag_Editor> _diagList = new List<Diag_Editor>();
 
 	public Sprite _my2DSprite;
+	public string myName;
 
 	// Interaction for dialogue
 	public override void Interact ()
@@ -48,6 +49,7 @@ public class NPC : Interactable {
 		Scene2_1Manager.instance._panel_Chat.SetActive(true);
 		Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel> ()._diagList = this._diagList;
 		Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel> ().speaker_2.sprite = _my2DSprite;
+		Scene2_1Manager.instance.suspectedPerson = myName;
 	}
 
 	void Start()
@@ -73,5 +75,7 @@ public class NPC : Interactable {
 //		{
 //			Debug.Log (d.speaker + "\t" + d.dialogue);
 //		}
+
+		myName = _diagList [1].speaker;
 	}
 }
