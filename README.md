@@ -26,6 +26,7 @@ JSON files are in this root directory "\Assets\Resources\GameJSONData" as per Un
 - Your data hasn't progressed enough. You need to get to this very quickly, as you can't start building your game until you can at least load the levels/world of your game. So work on getting loading working (from data files) asap.
 
 # Developer reply : 27/April
+
 This project seems to have stopped work? I haven't seen any update in days.
 # Reply
 -Yesterday, we worked on our end but not commited to git, as we are in between the development phase of a task. 
@@ -33,7 +34,7 @@ This project seems to have stopped work? I haven't seen any update in days.
 This file still needs compile instructions, and directory explanation so I know where to find stuff.
 # Reply
 - Unity3d Root Directory : Assets/....
-All game files, assets, graphics are in subfolder of it.
+	All game files, assets, graphics are in subfolder of it.
 - Assets/3D Models
      It consists of 3d models of different props with textures and materials:
      Environment, Trees, Grass
@@ -70,28 +71,22 @@ All game files, assets, graphics are in subfolder of it.
    NPC interacting
    Dialogue speech management
 
-
-
 Your changelog needs a lot of work
 # Reply
 We are regularly commiting and updating the change log files as task accomplish.Please let us know if we are missing something.
 
-
 Your data hasn't progressed enough. You need to get to this very quickly, as you can't start building your game until you can at least load the levels/world of your game. So work on getting loading working (from data files) asap. 
 # Reply
-Accomplished Tasks :
+Accomplished Tasks
 	We created Splash Scene (Project name with developed by memebers)
   	Scene_1 showing the phone ringing and speech between Detective and Police
  	Scene_2 showing the crime scene with zoom animation
   	Scene_2_1 showing the 3d house where crime happened and all NPC
-
 	All scene are loading progressively as events fires
-	
 	Dialogue mangement (Created editor  script to mange json files)
-
 	Gamemanger.cs & Scene2_1Manager.cs : to load and manage scenes and dialogues between Player and NPC(Ronald, Butler, Gardener , Cook)
 
-Tasks still to do :-
+Tasks still to do
 	List of suspected persons (NPC)	
 	Conversation between Detective and Maid , Julie
 	Interaction with Knife and mail letters as an evidence interactiable item
