@@ -102,7 +102,7 @@
      <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
      <None Include="Assets\RTS_Camera\Demo\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="Assets\3d Environment\eb_house_plant_01\READ_ME.txt" />
+     <None Include="Assets\3D Models\3d Environment\eb_house_plant_01\READ_ME.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
@@ -179,10 +179,10 @@
  <HintPath>E:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.1-1.0.56-Editor">
- <HintPath>F:/secondev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Editor.dll</HintPath>
+ <HintPath>F:/firstdev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.1-1.0.56-Runtime">
- <HintPath>F:/secondev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Runtime.dll</HintPath>
+ <HintPath>F:/firstdev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
