@@ -1,3 +1,15 @@
+commit 7424f40a662afa5ff1ec81e0df2dd50c9be17c9c (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon Apr 30 15:20:35 2018 +0530
+
+    -Implement conversation between Julie(maid) & Detective
+    -After converation completion showing Suspect panel.
+    -Add mail as an interactable item
+    -Getting Mouse and touch event
+    -Using mouse/touch event getting the click over mail-letters object.
+
+
+
 commit 746677a69d9ae5863bcf249949836ac7bde796c0 (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
 Author: aalotaibi97 <aalotaibi97@gmail.com>
 Date:   Fri Apr 27 19:07:52 2018 +0530
