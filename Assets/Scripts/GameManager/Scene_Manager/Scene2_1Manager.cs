@@ -32,6 +32,11 @@ public class Scene2_1Manager : MonoBehaviour {
 	
 	public void OpenSuspectPanel()
 	{
+		Invoke ("ShowNow", 1.5f);    // Wait for 1.5 seconds to show Panel
+	}
+
+	void ShowNow()
+	{
 		_suspectedText.text = "Is " + suspectedPerson + " suspected to murderer.";
 		_suspectPanel.SetActive (true);
 	}
@@ -39,7 +44,7 @@ public class Scene2_1Manager : MonoBehaviour {
 	public void ToSuspect(bool yes)
 	{
 		if (yes)
-			_ListSuspected.Add (suspectedPerson);
+			_ListSuspected.Add (suspectedPerson);			// Adding suspected person to  list 
 		else
 			_ListPersons.Add (suspectedPerson);
 
