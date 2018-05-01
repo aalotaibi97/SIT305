@@ -102,6 +102,18 @@ public class PlayerController : MonoBehaviour
 			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle") && (!GetComponentInParent<Animator> ().isActiveAndEnabled))
 				_animationModel.Play ("idle");
 		}
+
+
+		if(Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+			GetTouchEvent();
+		
+
+		if(Application.platform == RuntimePlatform.WindowsEditor)
+		GetMouseEvent ();
+
+
+
+
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -121,7 +133,39 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+	void GetMouseEvent()
+	{
+		if (Input.GetButtonDown("Fire1"))
+		{
+			RaycastHit hit;
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			if (Physics.Raycast (ray,out hit)) 
+			{
+				if (hit.collider.gameObject.tag == "Interactable") 
+				{
+					Debug.Log ("--------------------------------" + hit.collider.gameObject);
+					Scene2_1Manager.instance.OpenSuspectPanel ();
+				}
+			}
+		}
+	}
 
+	void GetTouchEvent()
+	{
+		if (Input.GetTouch(0).phase == TouchPhase.Ended)
+		{
+			RaycastHit hit;
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			if (Physics.Raycast (ray,out hit)) 
+			{
+				if (hit.collider.gameObject.tag == "Interactable") 
+				{
+					Debug.Log ("--------------------------------" + hit.collider.gameObject);
+					Scene2_1Manager.instance.OpenSuspectPanel ();
+				}
+			}
+		}
+	}
 
 	public void SetDeactiveAnimator()
 	{
