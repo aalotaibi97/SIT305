@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
 	public Animator _animationModel;
 	public bool interacting;
 
+	public Transform hitPint;
+
 
 	void Start () {
         Controller.maxAngularVelocity = TerminalRotationSpeed;
@@ -38,12 +40,13 @@ public class PlayerController : MonoBehaviour
 	void WallDetect_Trans()
 	{
 		RaycastHit hit;
-		Ray ray = Camera.main.ScreenPointToRay(this.gameObject.transform.position);
-
-		if (Physics.Raycast(ray, out hit)) {
+		Ray ray = Camera.main.ScreenPointToRay(hitPint.position);
+		if (Physics.Raycast(ray, out hit)) 
+		{
 			Transform objectHit = hit.transform;
 			Debug.Log (objectHit.tag);
 			// Do something with the object that was hit by the raycast.
+			Debug.DrawRay(ray.origin,hit.point,Color.blue);
 		}
 	}
 
@@ -99,6 +102,18 @@ public class PlayerController : MonoBehaviour
 			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle") && (!GetComponentInParent<Animator> ().isActiveAndEnabled))
 				_animationModel.Play ("idle");
 		}
+
+
+		if(Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+			GetTouchEvent();
+		
+
+		if(Application.platform == RuntimePlatform.WindowsEditor)
+		GetMouseEvent ();
+
+
+
+
 	}
 
 	void OnTriggerEnter(Collider col)
@@ -109,6 +124,7 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+	// GETTING INTERACTION BETWEEN PLAYER AND NPC : BY GETTING HE TAG OF HITTING OBJECT
 	void OnControllerColliderHit(ControllerColliderHit hit) 
 	{
 		if (hit.gameObject.tag == "NPC" && !hit.gameObject.GetComponent<NPC> ().iInteracted) 
@@ -117,7 +133,39 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+	void GetMouseEvent()
+	{
+		if (Input.GetButtonDown("Fire1"))
+		{
+			RaycastHit hit;
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			if (Physics.Raycast (ray,out hit)) 
+			{
+				if (hit.collider.gameObject.tag == "Interactable") 
+				{
+					Debug.Log ("--------------------------------" + hit.collider.gameObject);
+					Scene2_1Manager.instance.OpenSuspectPanel ();
+				}
+			}
+		}
+	}
 
+	void GetTouchEvent()
+	{
+		if (Input.GetTouch(0).phase == TouchPhase.Ended)
+		{
+			RaycastHit hit;
+			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			if (Physics.Raycast (ray,out hit)) 
+			{
+				if (hit.collider.gameObject.tag == "Interactable") 
+				{
+					Debug.Log ("--------------------------------" + hit.collider.gameObject);
+					Scene2_1Manager.instance.OpenSuspectPanel ();
+				}
+			}
+		}
+	}
 
 	public void SetDeactiveAnimator()
 	{
@@ -126,6 +174,7 @@ public class PlayerController : MonoBehaviour
 	}
 
 
+	// De-activating the VIRTUAL JOYSTICK
 	IEnumerator deactivation()
 	{
 		yield return new WaitForSeconds (2.1f);
