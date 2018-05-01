@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
 		if (Physics.Raycast(ray, out hit)) 
 		{
 			Transform objectHit = hit.transform;
-			Debug.Log (objectHit.tag);
+//			Debug.Log (objectHit.tag);
 			// Do something with the object that was hit by the raycast.
 			Debug.DrawRay(ray.origin,hit.point,Color.blue);
 		}
@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else
 		{
-			Debug.Log ("Not Moving");
+//			Debug.Log ("Not Moving");
 			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle") && (!GetComponentInParent<Animator> ().isActiveAndEnabled))
 				_animationModel.Play ("idle");
 		}
@@ -144,7 +144,7 @@ public class PlayerController : MonoBehaviour
 				if (hit.collider.gameObject.tag == "Interactable") 
 				{
 					Debug.Log ("--------------------------------" + hit.collider.gameObject);
-					Scene2_1Manager.instance.OpenSuspectPanel ();
+					Scene2_1Manager.instance.OpenSuspectedItem (hit.collider.gameObject.name);
 				}
 			}
 		}

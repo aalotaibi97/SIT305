@@ -17,6 +17,8 @@ public class Scene2_1Manager : MonoBehaviour {
 	public List<string> _ListSuspected = new List<string> ();
 	public List<string> _ListPersons = new List<string> ();
 
+	public GameObject _panelSuspectedItem;
+
 	void Awake()
 	{
 		//_lerpFade.White (0.01f);
@@ -49,5 +51,11 @@ public class Scene2_1Manager : MonoBehaviour {
 			_ListPersons.Add (suspectedPerson);
 
 		_suspectPanel.SetActive (false);
+	}
+
+	public void OpenSuspectedItem(string s)
+	{
+		_panelSuspectedItem.GetComponent<Panel_SuspectedItem> ().suspectedItem = s;
+		_panelSuspectedItem.gameObject.SetActive (true);
 	}
 }
