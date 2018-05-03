@@ -145,6 +145,7 @@ public class PlayerController : MonoBehaviour
 				{
 					Debug.Log ("--------------------------------" + hit.collider.gameObject);
 					Scene2_1Manager.instance.OpenSuspectedItem (hit.collider.gameObject.name);
+					Destroy (hit.collider.gameObject.GetComponent<BoxCollider> ());
 				}
 			}
 		}
