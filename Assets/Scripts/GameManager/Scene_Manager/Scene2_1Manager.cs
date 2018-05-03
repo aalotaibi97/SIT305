@@ -17,6 +17,17 @@ public class Scene2_1Manager : MonoBehaviour {
 	public List<string> _ListSuspected = new List<string> ();
 	public List<string> _ListPersons = new List<string> ();
 
+	public GameObject _panelSuspectedItem;
+
+	int allEvidenceObserved;
+
+	public GameObject panel_chose_gameover;
+
+	public GameObject gameoverPanel;
+	public string gameover_Win = "Case Solved: So the murderer was “Maid”, as when the Detective finds out the empty mail box and on Sundays mail did not get delivered as post offices are closed on Sundays.\n\nReason: Maid killed the wife of Ronald, as she wants to get money from all her account and transfer them to her own account. But Ronald’s wife caught maid red-handed stealing money.";
+	public string gameover_fail = "Case Un-Solved: Still it is mystery. TRY AGAIN !!";
+	public Button gameover_OkButton;
+
 	void Awake()
 	{
 		//_lerpFade.White (0.01f);
@@ -49,5 +60,28 @@ public class Scene2_1Manager : MonoBehaviour {
 			_ListPersons.Add (suspectedPerson);
 
 		_suspectPanel.SetActive (false);
+
+		allEvidenceObserved++;
+
+		Invoke ("CheckAllItemsObserved", 2.0f);
+	}
+
+	public void OpenSuspectedItem(string s)
+	{
+		_panelSuspectedItem.GetComponent<Panel_SuspectedItem> ().suspectedItem = s;
+		_panelSuspectedItem.gameObject.SetActive (true);
+
+		allEvidenceObserved++;
+
+		Invoke ("CheckAllItemsObserved", 2.0f);
+	}
+
+	void CheckAllItemsObserved()
+	{
+		if (allEvidenceObserved < 6)
+			return;
+
+		// Open the gameover to chose the murderer
+		panel_chose_gameover.gameObject.SetActive(true);
 	}
 }
