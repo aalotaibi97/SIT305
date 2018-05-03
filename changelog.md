@@ -1,3 +1,40 @@
+
+commit eb9fc7cbf2e9f9c0fcbd8093c219748ae3e9a10c (HEAD -> ksa_1409_8dev2, origin/ksa_1409_8dev2)
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed May 2 18:05:09 2018 +0530
+
+    -Implement the UI panel for showing suspected persons in game scene
+    -Add the sprite of 5 suspected Actor (Husband,Maid,Butler,Cook,Gardener).
+    -Adding the click event listener over these actor.
+
+commit 0ce2ca6bc8ed57816afe39792af16a9ba94c0094
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Tue May 1 18:35:57 2018 +0530
+
+    Create new gameobject Suspected Item panel.
+    Attached script, Panel_SuspectedItem.cs to it.
+    Pass the intectable item (Knife/Mail) name to the panel game object to user.
+    Set the title and description.
+
+commit 95b9f67252516cdec5b80c78bbc47a30238d71fc
+Merge: 19204965 777a1ba6
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Tue May 1 17:47:31 2018 +0530
+
+    Merge pull request #40 from aalotaibi97/development
+
+    Development
+
+commit 777a1ba6aac74b052cc8ff3356b8a3ea2988eb42 (origin/development)
+Merge: fe4ae966 a5f9ca39
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Tue May 1 17:46:04 2018 +0530
+
+    Merge pull request #39 from aalotaibi97/aalotaibi97dev1
+
+    Aalotaibi97dev1
+
+
 commit 7424f40a662afa5ff1ec81e0df2dd50c9be17c9c (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
 Author: aalotaibi97 <aalotaibi97@gmail.com>
 Date:   Mon Apr 30 15:20:35 2018 +0530
