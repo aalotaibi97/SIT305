@@ -1,3 +1,18 @@
+commit 5c6bcc952fb3d0e993171e96a8bcf2aa8019b8f8 (origin/ksa_1409_8dev2)
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Thu May 3 19:11:43 2018 +0530
+
+    -Did the Image pointer down handler event over all suspected persons in list
+    -Check clicked image is muderer?
+    -Created gameover screen with result text
+    -Showing the win & lose text at gameover.
+
+commit c457656e3bd90723d82eabda23d8130792000187
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed May 2 18:18:16 2018 +0530
+
+    updates
+
 
 commit eb9fc7cbf2e9f9c0fcbd8093c219748ae3e9a10c (HEAD -> ksa_1409_8dev2, origin/ksa_1409_8dev2)
 Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
