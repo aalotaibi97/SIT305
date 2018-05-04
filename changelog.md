@@ -1,3 +1,13 @@
+commit 62126ea44817b203efa68437f26d74e52a3da75e (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri May 4 19:26:55 2018 +0530
+
+    Knife Interactable
+     - Raycast from mouse to detect Knife Gameobject.
+     - Add shader to visiable through walls
+     - Ignoring wall layer from raycast.
+
+
 commit 5c6bcc952fb3d0e993171e96a8bcf2aa8019b8f8 (origin/ksa_1409_8dev2)
 Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
 Date:   Thu May 3 19:11:43 2018 +0530
