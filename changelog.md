@@ -1,3 +1,18 @@
+commit a4afe0ffe310271657984d26af4fde7fd2ab2cee (HEAD -> aalotaibi97dev1, origin                                                                    /aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon May 7 19:12:22 2018 +0530
+
+    Check condition is Player is interacted will all NPC
+    Decide the win and lose conditions
+    Showing the gameover panel either win or lose with sprite image
+    Load intial scene to try again and play again
+
+commit 2249eacd37a123b15410ee375b98bc9e7036da84
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri May 4 19:31:28 2018 +0530
+
+    change log updated
+
 commit 62126ea44817b203efa68437f26d74e52a3da75e (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
 Author: aalotaibi97 <aalotaibi97@gmail.com>
 Date:   Fri May 4 19:26:55 2018 +0530
