@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager\Scene_Manager\Scene2_1Manager.cs">
     <Files>
-      <File FileName="Assets\Scripts\PlayerController.cs" Line="161" Column="3" />
-      <File FileName="Assets\Scripts\GameManager\Scene_Manager\Scene2_1Manager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
       <File FileName="Assets\Editor\DialogueEditor_Window.cs" Line="1" Column="1" />
-      <File FileName="Assets\Panel_SuspectedItem.cs" Line="1" Column="1" />
-      <File FileName="Assets\Panel_Chose.cs" Line="1" Column="1" />
-      <File FileName="Assets\Shaders\Silhouetted Diffuse.shader" Line="18" Column="25" />
+      <File FileName="Assets\Shaders\Silhouetted Diffuse.shader" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameManager\Scene_Manager\Scene2_1Manager.cs" Line="94" Column="30" />
+      <File FileName="Assets\Scripts\Panel_Chose.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Panel_SuspectedItem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Panel_key_Info.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
