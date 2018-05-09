@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Scene2_1Manager : MonoBehaviour {
 
@@ -27,6 +28,9 @@ public class Scene2_1Manager : MonoBehaviour {
 	public string gameover_Win = "Case Solved: So the murderer was “Maid”, as when the Detective finds out the empty mail box and on Sundays mail did not get delivered as post offices are closed on Sundays.\n\nReason: Maid killed the wife of Ronald, as she wants to get money from all her account and transfer them to her own account. But Ronald’s wife caught maid red-handed stealing money.";
 	public string gameover_fail = "Case Un-Solved: Still it is mystery. TRY AGAIN !!";
 	public Button gameover_OkButton;
+	public Sprite _winSprite;
+	public Sprite _loseSprite;
+	public Image _displayImage;
 
 	void Awake()
 	{
@@ -78,10 +82,15 @@ public class Scene2_1Manager : MonoBehaviour {
 
 	void CheckAllItemsObserved()
 	{
-		if (allEvidenceObserved < 6)
+		if (allEvidenceObserved < 7)
 			return;
 
 		// Open the gameover to chose the murderer
 		panel_chose_gameover.gameObject.SetActive(true);
+	}
+
+	public void TryAgain()
+	{
+		SceneManager.LoadScene (0);
 	}
 }
