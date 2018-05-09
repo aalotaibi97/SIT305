@@ -16,7 +16,7 @@ public class Splash : MonoBehaviour {
 
 		yield return new WaitForSeconds (1.5f);
 
-		SceneManager.LoadScene ("scene_1");
+		SceneManager.LoadScene ("play_scene");
 	}
 	
 
