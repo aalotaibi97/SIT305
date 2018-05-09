@@ -53,8 +53,6 @@
   <ItemGroup>
      <Compile Include="Assets\CameraSetting\CameraFollow.cs" />
      <Compile Include="Assets\CameraSetting\Wiggle.cs" />
-     <Compile Include="Assets\Panel_Chose.cs" />
-     <Compile Include="Assets\Panel_SuspectedItem.cs" />
      <Compile Include="Assets\RTS_Camera\Demo\DemoScene.cs" />
      <Compile Include="Assets\RTS_Camera\Demo\TargetSelector.cs" />
      <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
@@ -80,7 +78,9 @@
      <Compile Include="Assets\Scripts\NPC\Interactable.cs" />
      <Compile Include="Assets\Scripts\NPC\NPC.cs" />
      <Compile Include="Assets\Scripts\NPC\NPC_DialoguePanel.cs" />
+     <Compile Include="Assets\Scripts\Panel_Chose.cs" />
      <Compile Include="Assets\Scripts\Panel_key_Info.cs" />
+     <Compile Include="Assets\Scripts\Panel_SuspectedItem.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Player_Collider.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
@@ -171,6 +171,7 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Shaders\Silhouetted Diffuse.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\letteromatic\font info.txt" />
@@ -197,10 +198,10 @@
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.1-1.0.56-Editor">
- <HintPath>F:/secondev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Editor.dll</HintPath>
+ <HintPath>F:/firstdev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Editor.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-2017.1-1.0.56-Runtime">
- <HintPath>F:/secondev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Runtime.dll</HintPath>
+ <HintPath>F:/firstdev/SIT305/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.1-1.0.56-Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

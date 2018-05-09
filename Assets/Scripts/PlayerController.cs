@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 	public bool interacting;
 
 	public Transform hitPint;
+	public LayerMask layr;
 
 
 	void Start () {
@@ -46,13 +47,13 @@ public class PlayerController : MonoBehaviour
 			Transform objectHit = hit.transform;
 //			Debug.Log (objectHit.tag);
 			// Do something with the object that was hit by the raycast.
-			Debug.DrawRay(ray.origin,hit.point,Color.blue);
+			//Debug.DrawRay(ray.origin,hit.point,Color.blue);
 		}
 	}
 
 	void Update () 
 	{
-		WallDetect_Trans ();
+		//WallDetect_Trans ();
 
 		_isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
 		if (_isGrounded && _velocity.y < 0)
@@ -133,14 +134,22 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+
 	void GetMouseEvent()
 	{
 		if (Input.GetButtonDown("Fire1"))
 		{
+					
 			RaycastHit hit;
-			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			if (Physics.Raycast (ray,out hit)) 
+			Ray vRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+		//	Vector3 dir = Camera.main.transform.position - Camera.main.ScreenToWorldPoint (Input.mousePosition);
+		//	dir.Normalize ();
+			//..Debug.log
+			//Debug.DrawRay (vRay, dir, Color.red , 500);
+			if (Physics.Raycast (vRay ,out hit)) 
 			{
+				Debug.Log ("--------------------------------" + hit.collider.gameObject);
 				if (hit.collider.gameObject.tag == "Interactable") 
 				{
 					Debug.Log ("--------------------------------" + hit.collider.gameObject);

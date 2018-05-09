@@ -1,3 +1,43 @@
+commit a4afe0ffe310271657984d26af4fde7fd2ab2cee (HEAD -> aalotaibi97dev1, origin                                                                    /aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon May 7 19:12:22 2018 +0530
+
+    Check condition is Player is interacted will all NPC
+    Decide the win and lose conditions
+    Showing the gameover panel either win or lose with sprite image
+    Load intial scene to try again and play again
+
+commit 2249eacd37a123b15410ee375b98bc9e7036da84
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri May 4 19:31:28 2018 +0530
+
+    change log updated
+
+commit 62126ea44817b203efa68437f26d74e52a3da75e (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri May 4 19:26:55 2018 +0530
+
+    Knife Interactable
+     - Raycast from mouse to detect Knife Gameobject.
+     - Add shader to visiable through walls
+     - Ignoring wall layer from raycast.
+
+
+commit 5c6bcc952fb3d0e993171e96a8bcf2aa8019b8f8 (origin/ksa_1409_8dev2)
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Thu May 3 19:11:43 2018 +0530
+
+    -Did the Image pointer down handler event over all suspected persons in list
+    -Check clicked image is muderer?
+    -Created gameover screen with result text
+    -Showing the win & lose text at gameover.
+
+commit c457656e3bd90723d82eabda23d8130792000187
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed May 2 18:18:16 2018 +0530
+
+    updates
+
 
 commit eb9fc7cbf2e9f9c0fcbd8093c219748ae3e9a10c (HEAD -> ksa_1409_8dev2, origin/ksa_1409_8dev2)
 Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
