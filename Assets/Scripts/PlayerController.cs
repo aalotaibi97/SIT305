@@ -165,14 +165,15 @@ public class PlayerController : MonoBehaviour
 		if (Input.GetTouch(0).phase == TouchPhase.Ended)
 		{
 			RaycastHit hit;
-			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
 			if (Physics.Raycast (ray,out hit)) 
 			{
 				if (hit.collider.gameObject.tag == "Interactable") 
 				{
 					Debug.Log ("--------------------------------" + hit.collider.gameObject);
-					Scene2_1Manager.instance.OpenSuspectPanel ();
-				}
+                    Scene2_1Manager.instance.OpenSuspectedItem(hit.collider.gameObject.name);
+                    Destroy(hit.collider.gameObject.GetComponent<BoxCollider>());
+                }
 			}
 		}
 	}
