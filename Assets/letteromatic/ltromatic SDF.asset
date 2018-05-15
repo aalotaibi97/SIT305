@@ -11,19 +11,19 @@ MonoBehaviour:
   m_Script: {fileID: -667331979, guid: 89f0137620f6af44b9ba852b4190e64e, type: 3}
   m_Name: ltromatic SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 1786376678
   material: {fileID: 21158892148703230}
-  materialHashCode: 0
+  materialHashCode: -2047821651
   fontAssetType: 1
   m_fontInfo:
     Name: LetterOMatic!
     PointSize: 54
-    Scale: 0
+    Scale: 1
     CharacterCount: 91
     LineHeight: 63.25
     Baseline: 0
     Ascender: 63.25
-    CapHeight: 0
+    CapHeight: 58.25
     Descender: 0
     CenterLine: 0
     SuperscriptOffset: 63.25
@@ -33,7 +33,7 @@ MonoBehaviour:
     UnderlineThickness: 5
     strikethrough: 23
     strikethroughThickness: 5
-    TabWidth: 0
+    TabWidth: 290
     Padding: 5
     AtlasWidth: 512
     AtlasHeight: 512
@@ -42,10 +42,10 @@ MonoBehaviour:
   - id: 32
     x: 6
     y: 517
-    width: 0
-    height: 0
+    width: 29
+    height: 63.25
     xOffset: 0
-    yOffset: 0
+    yOffset: 63.25
     xAdvance: 29
     scale: 1
   - id: 33
@@ -981,9 +981,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
