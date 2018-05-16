@@ -90,6 +90,7 @@ public class NPC_DialoguePanel : MonoBehaviour {
 			//Once the dialogue sppech get completed : showing the New Panel To suspect it or not
 			Scene2_1Manager.instance.OpenSuspectPanel ();
 			this.gameObject.SetActive (false);
+            if(belongingItem!=null)
             belongingItem.SetActive(true);
 		}
 	}
