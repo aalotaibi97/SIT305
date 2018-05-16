@@ -19,6 +19,9 @@ public class NPC : Interactable {
 	public Sprite _my2DSprite;
 	public string myName;
 
+    public GameObject myThumbnail;
+    public GameObject belongsTo;
+
 	// Interaction for dialogue
 	public override void Interact ()
 	{
@@ -41,8 +44,10 @@ public class NPC : Interactable {
 
 		// ShowCAnVAS OF SPPECH
 		Invoke("Investigating",2.0f);
-	
-	}
+
+        myThumbnail.transform.GetChild(0).gameObject.SetActive(true);
+ 
+    }
 
 	void Investigating()
 	{
@@ -50,6 +55,7 @@ public class NPC : Interactable {
 		Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel> ()._diagList = this._diagList;
 		Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel> ().speaker_2.sprite = _my2DSprite;
 		Scene2_1Manager.instance.suspectedPerson = myName;
+        Scene2_1Manager.instance._panel_Chat.GetComponent<NPC_DialoguePanel>().belongingItem = this.belongsTo;
 	}
 
 	void Start()
@@ -59,6 +65,7 @@ public class NPC : Interactable {
 	}
 
 	// Loading conversation for each NPC character at start of scene
+
 	void LoadConversation()
 	{
 		jsonData = _myConversation.text;

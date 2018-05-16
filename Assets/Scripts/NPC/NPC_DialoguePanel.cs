@@ -44,7 +44,9 @@ public class NPC_DialoguePanel : MonoBehaviour {
 	 *  Initiating the Dialog speech from index 0 of the dialgue list
 	 */
 	public int indexID=0;
-	IEnumerator StartSpeech()
+    internal GameObject belongingItem;
+
+    IEnumerator StartSpeech()
 	{
 		_continue.interactable = false;
 
@@ -88,6 +90,8 @@ public class NPC_DialoguePanel : MonoBehaviour {
 			//Once the dialogue sppech get completed : showing the New Panel To suspect it or not
 			Scene2_1Manager.instance.OpenSuspectPanel ();
 			this.gameObject.SetActive (false);
+            if(belongingItem!=null)
+            belongingItem.SetActive(true);
 		}
 	}
 }

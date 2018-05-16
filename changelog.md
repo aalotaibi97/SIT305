@@ -1,3 +1,136 @@
+commit eb1b82e8efd9937f4f17c3435a64e1ebefd84280 (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Tue May 15 18:29:50 2018 +0530
+
+    Implemented the 3d model of Gardener, Ronald - the husband
+    Optimize the 3d model
+
+commit df09cb7a5bcb1d94350bdac33cc453b66f5ed370
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Tue May 15 17:13:23 2018 +0530
+
+    -Added and implemented the 3d model of Cook
+    -Fixing position of knife so it can easily interactable
+
+commit a861354b92d525f9d02f6e3a875f18d14776956f (origin/ksa_1409_8dev2)
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Tue May 15 16:23:45 2018 +0530
+
+    -Active the 3d model of Butler
+    -Add 3d model of Maid, Julie
+    -Enlarge the collider of mail 3d object.
+
+commit d5c0286ab142b4f7c424540647ca8e27e8927bea
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Mon May 14 15:50:17 2018 +0530
+
+    Android build created and updated
+
+commit e180d49fcc5d94e4ed85893d59769e3994688d3d
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Mon May 14 15:45:07 2018 +0530
+
+    fix issue of get touch input on mobile device
+    showing the knife(in red color) and mail popup item
+    fixing character movement and collider
+
+commit 01b7db41f08b2c0620e9e90564c470dbb365da1f
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed May 9 18:20:47 2018 +0530
+
+    Add new scene : play_scene.unity (provide button for user to start)
+    Create a button Lets start and Load new scene on its click event
+
+commit 37b830d91dbe4b17e510cfe8f466aa711b0d00b6
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon May 7 19:16:15 2018 +0530
+
+    log updation
+
+commit a4afe0ffe310271657984d26af4fde7fd2ab2cee
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon May 7 19:12:22 2018 +0530
+:
+
+
+
+commit a4afe0ffe310271657984d26af4fde7fd2ab2cee (HEAD -> aalotaibi97dev1, origin                                                                    /aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon May 7 19:12:22 2018 +0530
+
+    Check condition is Player is interacted will all NPC
+    Decide the win and lose conditions
+    Showing the gameover panel either win or lose with sprite image
+    Load intial scene to try again and play again
+
+commit 2249eacd37a123b15410ee375b98bc9e7036da84
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri May 4 19:31:28 2018 +0530
+
+    change log updated
+
+commit 62126ea44817b203efa68437f26d74e52a3da75e (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Fri May 4 19:26:55 2018 +0530
+
+    Knife Interactable
+     - Raycast from mouse to detect Knife Gameobject.
+     - Add shader to visiable through walls
+     - Ignoring wall layer from raycast.
+
+
+commit 5c6bcc952fb3d0e993171e96a8bcf2aa8019b8f8 (origin/ksa_1409_8dev2)
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Thu May 3 19:11:43 2018 +0530
+
+    -Did the Image pointer down handler event over all suspected persons in list
+    -Check clicked image is muderer?
+    -Created gameover screen with result text
+    -Showing the win & lose text at gameover.
+
+commit c457656e3bd90723d82eabda23d8130792000187
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed May 2 18:18:16 2018 +0530
+
+    updates
+
+
+commit eb9fc7cbf2e9f9c0fcbd8093c219748ae3e9a10c (HEAD -> ksa_1409_8dev2, origin/ksa_1409_8dev2)
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed May 2 18:05:09 2018 +0530
+
+    -Implement the UI panel for showing suspected persons in game scene
+    -Add the sprite of 5 suspected Actor (Husband,Maid,Butler,Cook,Gardener).
+    -Adding the click event listener over these actor.
+
+commit 0ce2ca6bc8ed57816afe39792af16a9ba94c0094
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Tue May 1 18:35:57 2018 +0530
+
+    Create new gameobject Suspected Item panel.
+    Attached script, Panel_SuspectedItem.cs to it.
+    Pass the intectable item (Knife/Mail) name to the panel game object to user.
+    Set the title and description.
+
+commit 95b9f67252516cdec5b80c78bbc47a30238d71fc
+Merge: 19204965 777a1ba6
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Tue May 1 17:47:31 2018 +0530
+
+    Merge pull request #40 from aalotaibi97/development
+
+    Development
+
+commit 777a1ba6aac74b052cc8ff3356b8a3ea2988eb42 (origin/development)
+Merge: fe4ae966 a5f9ca39
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Tue May 1 17:46:04 2018 +0530
+
+    Merge pull request #39 from aalotaibi97/aalotaibi97dev1
+
+    Aalotaibi97dev1
+
+
 commit 7424f40a662afa5ff1ec81e0df2dd50c9be17c9c (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
 Author: aalotaibi97 <aalotaibi97@gmail.com>
 Date:   Mon Apr 30 15:20:35 2018 +0530

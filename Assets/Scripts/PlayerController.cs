@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 	public bool interacting;
 
 	public Transform hitPint;
+	public LayerMask layr;
 
 
 	void Start () {
@@ -44,15 +45,15 @@ public class PlayerController : MonoBehaviour
 		if (Physics.Raycast(ray, out hit)) 
 		{
 			Transform objectHit = hit.transform;
-			Debug.Log (objectHit.tag);
+//			Debug.Log (objectHit.tag);
 			// Do something with the object that was hit by the raycast.
-			Debug.DrawRay(ray.origin,hit.point,Color.blue);
+			//Debug.DrawRay(ray.origin,hit.point,Color.blue);
 		}
 	}
 
 	void Update () 
 	{
-		WallDetect_Trans ();
+		//WallDetect_Trans ();
 
 		_isGrounded = Physics.CheckSphere(_groundChecker.position, GroundDistance, Ground, QueryTriggerInteraction.Ignore);
 		if (_isGrounded && _velocity.y < 0)
@@ -98,7 +99,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else
 		{
-			Debug.Log ("Not Moving");
+//			Debug.Log ("Not Moving");
 			if (!_animationModel.GetCurrentAnimatorStateInfo (0).IsName ("idle") && (!GetComponentInParent<Animator> ().isActiveAndEnabled))
 				_animationModel.Play ("idle");
 		}
@@ -133,18 +134,28 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 
+
 	void GetMouseEvent()
 	{
 		if (Input.GetButtonDown("Fire1"))
 		{
+					
 			RaycastHit hit;
-			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			if (Physics.Raycast (ray,out hit)) 
+			Ray vRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+		//	Vector3 dir = Camera.main.transform.position - Camera.main.ScreenToWorldPoint (Input.mousePosition);
+		//	dir.Normalize ();
+			//..Debug.log
+			//Debug.DrawRay (vRay, dir, Color.red , 500);
+			if (Physics.Raycast (vRay ,out hit)) 
 			{
+				Debug.Log ("--------------------------------" + hit.collider.gameObject);
 				if (hit.collider.gameObject.tag == "Interactable") 
 				{
 					Debug.Log ("--------------------------------" + hit.collider.gameObject);
-					Scene2_1Manager.instance.OpenSuspectPanel ();
+					Scene2_1Manager.instance.OpenSuspectedItem (hit.collider.gameObject.name);
+					Destroy (hit.collider.gameObject.GetComponent<BoxCollider> ());
+                    HUDUpdate(hit.collider.gameObject.name);
 				}
 			}
 		}
@@ -155,19 +166,45 @@ public class PlayerController : MonoBehaviour
 		if (Input.GetTouch(0).phase == TouchPhase.Ended)
 		{
 			RaycastHit hit;
-			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+			Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
 			if (Physics.Raycast (ray,out hit)) 
 			{
 				if (hit.collider.gameObject.tag == "Interactable") 
 				{
 					Debug.Log ("--------------------------------" + hit.collider.gameObject);
-					Scene2_1Manager.instance.OpenSuspectPanel ();
-				}
+                    Scene2_1Manager.instance.OpenSuspectedItem(hit.collider.gameObject.name);
+                    Destroy(hit.collider.gameObject.GetComponent<BoxCollider>());
+                    HUDUpdate(hit.collider.gameObject.name);
+                }
 			}
 		}
 	}
 
-	public void SetDeactiveAnimator()
+    void HUDUpdate(string s)
+    {
+        GameObject g = null;
+        switch (s)
+        {
+            case "mail":
+                g = GameObject.Find("Canvas/Panel_thumbnail/Panel_Letters").gameObject;
+                g.SetActive(true);
+                g.transform.GetChild(0).gameObject.SetActive(true);
+                break;
+            case "Knife":
+                g = GameObject.Find("Canvas/Panel_thumbnail/Panel_Knife").gameObject;
+                g.SetActive(true);
+                g.transform.GetChild(0).gameObject.SetActive(true);
+                break;
+            case "mobile":
+                g = GameObject.Find("Canvas/Panel_thumbnail/Panel_Mobile").gameObject;
+                g.SetActive(true);
+                g.transform.GetChild(0).gameObject.SetActive(true);
+                break;
+        }
+    }
+
+
+    public void SetDeactiveAnimator()
 	{
 		_animationModel.Play ("walk");
 		StartCoroutine (deactivation ());
