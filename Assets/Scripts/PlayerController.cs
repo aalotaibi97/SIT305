@@ -155,6 +155,7 @@ public class PlayerController : MonoBehaviour
 					Debug.Log ("--------------------------------" + hit.collider.gameObject);
 					Scene2_1Manager.instance.OpenSuspectedItem (hit.collider.gameObject.name);
 					Destroy (hit.collider.gameObject.GetComponent<BoxCollider> ());
+                    HUDUpdate(hit.collider.gameObject.name);
 				}
 			}
 		}
@@ -173,12 +174,37 @@ public class PlayerController : MonoBehaviour
 					Debug.Log ("--------------------------------" + hit.collider.gameObject);
                     Scene2_1Manager.instance.OpenSuspectedItem(hit.collider.gameObject.name);
                     Destroy(hit.collider.gameObject.GetComponent<BoxCollider>());
+                    HUDUpdate(hit.collider.gameObject.name);
                 }
 			}
 		}
 	}
 
-	public void SetDeactiveAnimator()
+    void HUDUpdate(string s)
+    {
+        GameObject g = null;
+        switch (s)
+        {
+            case "mail":
+                g = GameObject.Find("Canvas/Panel_thumbnail/Panel_Letters").gameObject;
+                g.SetActive(true);
+                g.transform.GetChild(0).gameObject.SetActive(true);
+                break;
+            case "Knife":
+                g = GameObject.Find("Canvas/Panel_thumbnail/Panel_Knife").gameObject;
+                g.SetActive(true);
+                g.transform.GetChild(0).gameObject.SetActive(true);
+                break;
+            case "mobile":
+                g = GameObject.Find("Canvas/Panel_thumbnail/Panel_Mobile").gameObject;
+                g.SetActive(true);
+                g.transform.GetChild(0).gameObject.SetActive(true);
+                break;
+        }
+    }
+
+
+    public void SetDeactiveAnimator()
 	{
 		_animationModel.Play ("walk");
 		StartCoroutine (deactivation ());
