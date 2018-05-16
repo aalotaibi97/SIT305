@@ -1,3 +1,59 @@
+commit eb1b82e8efd9937f4f17c3435a64e1ebefd84280 (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Tue May 15 18:29:50 2018 +0530
+
+    Implemented the 3d model of Gardener, Ronald - the husband
+    Optimize the 3d model
+
+commit df09cb7a5bcb1d94350bdac33cc453b66f5ed370
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Tue May 15 17:13:23 2018 +0530
+
+    -Added and implemented the 3d model of Cook
+    -Fixing position of knife so it can easily interactable
+
+commit a861354b92d525f9d02f6e3a875f18d14776956f (origin/ksa_1409_8dev2)
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Tue May 15 16:23:45 2018 +0530
+
+    -Active the 3d model of Butler
+    -Add 3d model of Maid, Julie
+    -Enlarge the collider of mail 3d object.
+
+commit d5c0286ab142b4f7c424540647ca8e27e8927bea
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Mon May 14 15:50:17 2018 +0530
+
+    Android build created and updated
+
+commit e180d49fcc5d94e4ed85893d59769e3994688d3d
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Mon May 14 15:45:07 2018 +0530
+
+    fix issue of get touch input on mobile device
+    showing the knife(in red color) and mail popup item
+    fixing character movement and collider
+
+commit 01b7db41f08b2c0620e9e90564c470dbb365da1f
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed May 9 18:20:47 2018 +0530
+
+    Add new scene : play_scene.unity (provide button for user to start)
+    Create a button Lets start and Load new scene on its click event
+
+commit 37b830d91dbe4b17e510cfe8f466aa711b0d00b6
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon May 7 19:16:15 2018 +0530
+
+    log updation
+
+commit a4afe0ffe310271657984d26af4fde7fd2ab2cee
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Mon May 7 19:12:22 2018 +0530
+:
+
+
+
 commit a4afe0ffe310271657984d26af4fde7fd2ab2cee (HEAD -> aalotaibi97dev1, origin                                                                    /aalotaibi97dev1)
 Author: aalotaibi97 <aalotaibi97@gmail.com>
 Date:   Mon May 7 19:12:22 2018 +0530
