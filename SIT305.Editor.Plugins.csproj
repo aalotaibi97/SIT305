@@ -153,7 +153,9 @@
     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\3D Models\3d Environment\Outline.shader" />
     <None Include="Assets\3D Models\3d Environment\eb_house_plant_01\READ_ME.txt" />
+    <None Include="Assets\3D Models\3d Environment\out.shader" />
     <None Include="Assets\RTS_Camera\Demo\Projectors\Guidelines.txt" />
     <None Include="Assets\RTS_Camera\Demo\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\RTS_Camera\Demo\Projectors\Shaders\ProjectorMultiply.shader" />
