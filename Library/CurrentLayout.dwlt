@@ -1,403 +1,631 @@
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40">
-
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 12">
-<meta name=Originator content="Microsoft Word 12">
-<link rel=File-List href="CurrentLayout_files/filelist.xml">
-<!--[if gte mso 9]><xml>
- <o:DocumentProperties>
-  <o:Author>Admin</o:Author>
-  <o:LastAuthor>Admin</o:LastAuthor>
-  <o:Revision>5</o:Revision>
-  <o:TotalTime>0</o:TotalTime>
-  <o:Created>2018-05-17T11:51:00Z</o:Created>
-  <o:LastSaved>2018-05-17T11:51:00Z</o:LastSaved>
-  <o:Pages>1</o:Pages>
-  <o:Lines>1</o:Lines>
-  <o:Paragraphs>1</o:Paragraphs>
-  <o:Version>12.00</o:Version>
- </o:DocumentProperties>
-</xml><![endif]-->
-<link rel=themeData href="CurrentLayout_files/themedata.thmx">
-<link rel=colorSchemeMapping href="CurrentLayout_files/colorschememapping.xml">
-<!--[if gte mso 9]><xml>
- <w:WordDocument>
-  <w:Zoom>191</w:Zoom>
-  <w:SpellingState>Clean</w:SpellingState>
-  <w:GrammarState>Clean</w:GrammarState>
-  <w:TrackMoves>false</w:TrackMoves>
-  <w:TrackFormatting/>
-  <w:ValidateAgainstSchemas/>
-  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
-  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
-  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
-  <w:DoNotPromoteQF/>
-  <w:LidThemeOther>EN-US</w:LidThemeOther>
-  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
-  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
-  <w:Compatibility>
-   <w:BreakWrappedTables/>
-   <w:SnapToGridInCell/>
-   <w:WrapTextWithPunct/>
-   <w:UseAsianBreakRules/>
-   <w:DontGrowAutofit/>
-   <w:SplitPgBreakAndParaMark/>
-   <w:DontVertAlignCellWithSp/>
-   <w:DontBreakConstrainedForcedTables/>
-   <w:DontVertAlignInTxbx/>
-   <w:Word11KerningPairs/>
-   <w:CachedColBalance/>
-  </w:Compatibility>
-  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
-  <m:mathPr>
-   <m:mathFont m:val="Cambria Math"/>
-   <m:brkBin m:val="before"/>
-   <m:brkBinSub m:val="&#45;-"/>
-   <m:smallFrac m:val="off"/>
-   <m:dispDef/>
-   <m:lMargin m:val="0"/>
-   <m:rMargin m:val="0"/>
-   <m:defJc m:val="centerGroup"/>
-   <m:wrapIndent m:val="1440"/>
-   <m:intLim m:val="subSup"/>
-   <m:naryLim m:val="undOvr"/>
-  </m:mathPr></w:WordDocument>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
-  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
-  LatentStyleCount="267">
-  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
-  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
-  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
-  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
-  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
-  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
-  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
-  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
-  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
-  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
-  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Table Grid"/>
-  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
-  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 1"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
-  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
-  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
-  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
-  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 2"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 3"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 4"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 5"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
-  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light List Accent 6"/>
-  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
-  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
-  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
-  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
-  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
-  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
-  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
-   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
-  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
-  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
-  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
-  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
-  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
-   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
-  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
-  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
- </w:LatentStyles>
-</xml><![endif]-->
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
-	mso-generic-font-family:roman;
-	mso-font-format:other;
-	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{mso-style-unhide:no;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	margin:0in;
-	margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	mso-default-props:yes;
-	font-size:10.0pt;
-	mso-ansi-font-size:10.0pt;
-	mso-bidi-font-size:10.0pt;}
-@page Section1
-	{size:8.5in 11.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;
-	mso-header-margin:.5in;
-	mso-footer-margin:.5in;
-	mso-paper-source:0;}
-div.Section1
-	{page:Section1;}
--->
-</style>
-<!--[if gte mso 10]>
-<style>
- /* Style Definitions */
- table.MsoNormalTable
-	{mso-style-name:"Table Normal";
-	mso-tstyle-rowband-size:0;
-	mso-tstyle-colband-size:0;
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-qformat:yes;
-	mso-style-parent:"";
-	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin:0in;
-	mso-para-margin-bottom:.0001pt;
-	mso-pagination:widow-orphan;
-	font-size:10.0pt;
-	font-family:"Times New Roman","serif";}
-</style>
-<![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="3074"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
-</head>
-
-<body lang=EN-US style='tab-interval:.5in'>
-
-<div class=Section1>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-</div>
-
-</body>
-
-</html>
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 471}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 4}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 997
+  m_MinSize: {x: 950, y: 471}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 2 by 3
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 915, y: 421}
+  m_MaxSize: {x: 22010, y: 10021}
+  vertical: 0
+  controlID: 174
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 977
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1207
+    height: 947
+  m_MinSize: {x: 202, y: 421}
+  m_MaxSize: {x: 4002, y: 8021}
+  vertical: 1
+  controlID: 256
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1207
+    y: 0
+    width: 204
+    height: 947
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1411
+    y: 0
+    width: 234
+    height: 947
+  m_MinSize: {x: 234, y: 271}
+  m_MaxSize: {x: 10004, y: 10021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1645
+    y: 0
+    width: 275
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1207
+    height: 221
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 221
+    width: 1207
+    height: 726
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 1209
+    y: 92
+    width: 200
+    height: 926
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+  m_ExpandedScenes: []
+  m_CurrenRootInstanceID: 0
+  m_Locked: 0
+  m_CurrentSortingName: TransformSorting
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 1647
+    y: 92
+    width: 273
+    height: 926
+  m_ScrollPosition: {x: 0, y: 0}
+  m_InspectorMode: 0
+  m_PreviewResizer:
+    m_CachedPref: -160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 1413
+    y: 92
+    width: 230
+    height: 926
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_ScenePaths: []
+    m_ShowAllHits: 0
+    m_SearchArea: 0
+    m_Folders:
+    - Assets/Locomotion Pack
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Locomotion Pack
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: F:\secondev\SIT305
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 786c0000
+    m_LastClickedID: 27768
+    m_ExpandedIDs: 846b000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 846b000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_DirectoriesAreaWidth: 110
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 32
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 313
+    width: 1205
+    height: 705
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    m_HBaseRangeMin: -602.5
+    m_HBaseRangeMax: 602.5
+    m_VBaseRangeMin: -344
+    m_VBaseRangeMax: 344
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoom: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 1205
+      height: 688
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 602.5, y: 344}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -602.5
+      y: -344
+      width: 1205
+      height: 688
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 1205, y: 705}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 32
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 92
+    width: 1205
+    height: 200
+  m_SceneLighting: 1
+  lastFramingTime: 0
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_ValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
