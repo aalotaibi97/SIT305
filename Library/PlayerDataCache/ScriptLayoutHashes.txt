@@ -100,7 +100,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 6a492d7b8465b2c00d15794caa46ec2e Assembly-CSharp.dll:TMPro.Examples.TMPro_InstructionOverlay
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Ball.BallUserControl
 f41c5222aaa4557bb9cafa1c24b37a94 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.AutoCam
-27a642f67e8e5d3c5963a47fa85b3404 Assembly-CSharp.dll:.Scene2_1Manager
+b444d4f740ac38a0389f9236f23da22f Assembly-CSharp.dll:.Scene2_1Manager
 765037da3d8faeee91e39d672b924c61 Assembly-CSharp.dll:.EnvMapAnimator
 6c156248975c65e334daa4cbfba64bd1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectActivator
 feffea53bdfc9dc384dfc5a748d3460f Assembly-CSharp.dll:.TargetSelector
@@ -251,7 +251,7 @@ ed5b1294bf25c955351a414cffe1c3ab Assembly-CSharp.dll:RTS_Cam.RTS_Camera
 16756866ef08c5c05c6229db9418c551 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.FreeLookCam
 b8f04bdad423045528c67dfa4c3dca0d Assembly-CSharp.dll:TMPro.Examples.VertexShakeA
 7193440e0686b61fee4075374033dcae Assembly-CSharp.dll:.Splash
-057adc210cdf1fbe4e3d0da3408027a5 Assembly-CSharp.dll:.Panel_SuspectedItem
+cb2d047f6727a8d8ce284d2212b4ab9c Assembly-CSharp.dll:.Panel_SuspectedItem
 869e5abc2271c3b618904edff22e38ef Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExplosionFireAndDebris
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -303,7 +303,7 @@ ac0e5e8ccd6c031d45307738e1b2ad59 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 74d16288332f6289274f30bd41341cc6 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.CarAudio
 6ef10f2c9d52b20165b73caa5f02409d Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplaneUserControl2Axis
 ab232dc3d94359ca42eabb9c72cbbb82 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.WaterHoseParticles
-c314b20914abdc3d6087c9019fb86d71 Assembly-CSharp.dll:.NPC
+3290307b0add8443b6219bdff7f5ac15 Assembly-CSharp.dll:.NPC
 48a9dee325686d1924a2646b71c83f08 Assembly-CSharp.dll:TMPro.Examples.Benchmark01
 c9576c6a51e2e71bc5caab85a96801e8 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.SmokeParticles
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FollowTarget
