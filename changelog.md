@@ -1,4 +1,112 @@
-commit eb1b82e8efd9937f4f17c3435a64e1ebefd84280 (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
+commit 3fa85a866476f8db1b932a920a5da9e12a27a679 (HEAD -> aalotaibi97dev1, origin                                                                                                        /aalotaibi97dev1)
+Merge: 248e4ade b2adcb51
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Wed May 16 17:58:06 2018 +0530
+
+    Merge pull request #51 from aalotaibi97/development
+
+    Development
+
+commit b2adcb5110495f3e189f15cbbb8cff460513233d (origin/development)
+Merge: 145e94ec 33c4baea
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Wed May 16 17:57:02 2018 +0530
+
+    Merge pull request #50 from aalotaibi97/ksa_1409_8dev2
+
+    Ksa 1409 8dev2
+
+commit 33c4baeae933df1fa0e17d13e865000c92065610 (origin/ksa_1409_8dev2)
+Merge: aac250a2 02048441
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed May 16 17:39:54 2018 +0530
+:...skipping...
+commit 3fa85a866476f8db1b932a920a5da9e12a27a679 (HEAD -> aalotaibi97dev1, origin/aalotaibi97dev1)
+Merge: 248e4ade b2adcb51
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Wed May 16 17:58:06 2018 +0530
+
+    Merge pull request #51 from aalotaibi97/development
+
+    Development
+
+commit b2adcb5110495f3e189f15cbbb8cff460513233d (origin/development)
+Merge: 145e94ec 33c4baea
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Wed May 16 17:57:02 2018 +0530
+
+    Merge pull request #50 from aalotaibi97/ksa_1409_8dev2
+
+    Ksa 1409 8dev2
+
+commit 33c4baeae933df1fa0e17d13e865000c92065610 (origin/ksa_1409_8dev2)
+Merge: aac250a2 02048441
+Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
+Date:   Wed May 16 17:39:54 2018 +0530
+
+    Merge branch 'ksa_1409_8dev2' of https://github.com/aalotaibi97/SIT305 into ksa_1409_8dev2
+
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit aac250a2a9199d2ec9b0c8751f2bcb53a54a99ac
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Wed May 16 17:29:24 2018 +0530
+
+    -Did code for the HUD implementation.
+    -Ticking true when NPC interacted
+    -Add mobile phone as interactible item with Ronald
+    -Showing the suspected item panel
+    -Rectifiyng the game over transistion
+    -Try again, fiving chance again for user to select.
+
+commit 0204844135d4572a2a2f91a4799d9d17790de6e9
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Wed May 16 17:29:24 2018 +0530
+
+    -Did code for the HUD implementation.
+    -Ticking true when NPC interacted
+    -Add mobile phone as interactible item with Ronald
+    -Showing the suspected item panel
+    -Rectifiyng the game over transistion
+    -Try again, fiving chance again for user to select.
+
+commit 0d94206084b4d9f38b3773e9f9a52fca71aaa9e6
+Merge: a861354b 145e94ec
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Wed May 16 15:26:35 2018 +0530
+
+    Merge pull request #48 from aalotaibi97/development
+
+    Development
+
+commit 145e94ec9805d21e74bccce6c1edb8bdb170e080
+Merge: 48865282 248e4ade
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Wed May 16 15:25:42 2018 +0530
+
+    Merge pull request #47 from aalotaibi97/aalotaibi97dev1
+
+    Aalotaibi97dev1
+
+commit 248e4aded146e7b24af05746fb0546a8a0b62835
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Wed May 16 15:24:04 2018 +0530
+
+    -Adding HUD(heads-up display)
+    -HUD with ticked , so player get noticed to hom he interacted
+    -Object of RPG get completed: Dialogue with particular person has been done.
+
+commit 3f09a5b38929edd43f9073b5267253727136f4e3
+Author: aalotaibi97 <aalotaibi97@gmail.com>
+Date:   Tue May 15 19:40:55 2018 +0530
+
+    UPDATE LOG
+
+commit eb1b82e8efd9937f4f17c3435a64e1ebefd84280
 Author: aalotaibi97 <aalotaibi97@gmail.com>
 Date:   Tue May 15 18:29:50 2018 +0530
 
@@ -12,7 +120,25 @@ Date:   Tue May 15 17:13:23 2018 +0530
     -Added and implemented the 3d model of Cook
     -Fixing position of knife so it can easily interactable
 
-commit a861354b92d525f9d02f6e3a875f18d14776956f (origin/ksa_1409_8dev2)
+commit 32008946b5707ceb6586ac406e34637354c81a2b
+Merge: 37b830d9 48865282
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Tue May 15 16:29:11 2018 +0530
+
+    Merge pull request #46 from aalotaibi97/development
+
+    Development
+
+commit 4886528264fd745894b16c51584c7cbab8770b3d
+Merge: c24c342d a861354b
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Tue May 15 16:28:26 2018 +0530
+
+    Merge pull request #45 from aalotaibi97/ksa_1409_8dev2
+
+    Ksa 1409 8dev2
+
+commit a861354b92d525f9d02f6e3a875f18d14776956f
 Author: ksa_1409_8 <ksa_1409_8@hotmail.com>
 Date:   Tue May 15 16:23:45 2018 +0530
 
@@ -41,6 +167,24 @@ Date:   Wed May 9 18:20:47 2018 +0530
     Add new scene : play_scene.unity (provide button for user to start)
     Create a button Lets start and Load new scene on its click event
 
+commit 272496a0b0966ecc58464b5abaaa177c44443eea
+Merge: 5c6bcc95 c24c342d
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Wed May 9 17:50:10 2018 +0530
+
+    Merge pull request #44 from aalotaibi97/development
+
+    Development
+
+commit c24c342d0e2ef2b86abcb2a3ccb4f0c72d764054
+Merge: cf329b08 37b830d9
+Author: Ahmed044 <30297218+Ahmed044@users.noreply.github.com>
+Date:   Wed May 9 17:49:17 2018 +0530
+
+    Merge pull request #43 from aalotaibi97/aalotaibi97dev1
+
+    Aalotaibi97dev1
+
 commit 37b830d91dbe4b17e510cfe8f466aa711b0d00b6
 Author: aalotaibi97 <aalotaibi97@gmail.com>
 Date:   Mon May 7 19:16:15 2018 +0530
@@ -50,18 +194,12 @@ Date:   Mon May 7 19:16:15 2018 +0530
 commit a4afe0ffe310271657984d26af4fde7fd2ab2cee
 Author: aalotaibi97 <aalotaibi97@gmail.com>
 Date:   Mon May 7 19:12:22 2018 +0530
-:
-
-
-
-commit a4afe0ffe310271657984d26af4fde7fd2ab2cee (HEAD -> aalotaibi97dev1, origin                                                                    /aalotaibi97dev1)
-Author: aalotaibi97 <aalotaibi97@gmail.com>
-Date:   Mon May 7 19:12:22 2018 +0530
 
     Check condition is Player is interacted will all NPC
     Decide the win and lose conditions
     Showing the gameover panel either win or lose with sprite image
     Load intial scene to try again and play again
+
 
 commit 2249eacd37a123b15410ee375b98bc9e7036da84
 Author: aalotaibi97 <aalotaibi97@gmail.com>
